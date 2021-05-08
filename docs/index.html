@@ -1,0 +1,56 @@
+<!doctype html><html lang=ja><script async src="https://www.googletagmanager.com/gtag/js?id=UA-142997649-1"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());gtag('config','UA-142997649-1');</script><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>漢字タイピング</title><meta name=description content=漢字とタイピングを同時に学ぶアプリです。><script>if('serviceWorker'in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/kanji-typing/sw.js');});}</script><link rel=apple-touch-icon sizes=180x180 href=/kanji-typing/favicon/apple-touch-icon.png><link rel=icon type=image/png sizes=48x48 href=/kanji-typing/favicon/favicon-48x48.png><link rel=manifest href=/kanji-typing/favicon/manifest.json><link rel=mask-icon href=/kanji-typing/favicon/safari-pinned-tab.svg color=#5bbad5><meta name=msapplication-TileColor content=#da532c><meta name=theme-color content=#ffffff><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css><style>@font-face{font-family:textar-light;src:local('Textar'),url('https://marmooo.github.io/fonts/textar-light.woff2') format('woff2'),font-display:swap}html,body{height:100%}pre.aa{font-size:2vw;display:inline-block;overflow:hidden;text-align:left;font-family:textar-light;line-height:1.1;white-space:pre;word-wrap:normal}#roma{height:1.8rem}#counter{font-size:10rem;width:12rem;height:12rem;line-height:12rem;border-radius:50%;background:tomato;margin:auto}#aaOuter{background:0 0;display:flex;align-items:center;justify-content:center}#aa{position:relative;top:0;left:0;margin:auto}#typePanel{word-wrap:break-word}img{transform-origin:top left}.rotate90{transform:rotate(90deg) translateY(-100%)}.rotate180{transform:rotate(180deg) translate(-100%,-100%)}.rotate270{transform:rotate(270deg) translate(-100%)}svg{cursor:pointer}html[data-theme=dark]{filter:invert(1) hue-rotate(180deg)}@-moz-document url-prefix(){html[data-theme=dark]{background-color:#000}}</style><header id=header><nav class="navbar navbar-expand navbar-light"><div class=container><a class=navbar-brand href=/kanji-typing/>漢字タイピング</a><div class=navbar-nav><select id=gradeOption class="ml-1 form-control form-control-sm" aria-label=コース>
+<option>小1
+<option>小2
+<option>小3
+<option selected>小4
+<option>小5
+<option>小6
+<option>中1/中2
+<option>中3</select>
+<button title=音楽を再生 onclick=toggleBGM() class="ml-2 close"><svg id="bgmOn" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="#000"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21.0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/></svg><svg id="bgmOff" class="d-none" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="#000"><path d="M0 0h24v24H0z" fill="none"/><path d="M4.27 3 3 4.27l9 9v.28c-.59-.34-1.27-.55-2-.55-2.21.0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4v-1.73L19.73 21 21 19.73 4.27 3zM14 7h4V3h-6v5.18l2 2z"/></svg></button>
+<button title=ダークモード切替 onclick=toggleDarkMode() class="ml-2 close">🌓</button>
+<button title=概要 class="ml-2 close d-sm-none" onclick=toggleOverview() aria-label=概要>
+<span aria-hidden=true>?</span></button></div></div></nav></header><main id=container class=container><noscript><div class="alert alert-warning text-center">JavaScript を ON にしてください</div></noscript><div id=infoPanel><div class="row text-center"><div class=col-sm><div id=overview class="alert alert-info d-none d-sm-block"><button type=button class="close ml-3 d-sm-none" onclick=toggleOverview() aria-label=閉じる>
+<span aria-hidden=true>&times;</span></button><p>漢字とタイピングを同時に学ぶアプリです。<footer><div><a class=px-1 href=/>Home</a>
+<a class=px-1 href=/terms/>Terms</a>
+<a class=px-1 href=https://github.com/marmooo/touch-kanji>Contact</a></div><div class=text-muted>&copy; <a href=https://github.com/marmooo>marmooo</a></div></footer></div></div><div class=col-sm><div class="alert alert-info"><div class=h5><label><ruby>時間<rp>(<rt>じかん<rp>)</ruby>:</label><span id=time class=ml-1>180秒 / 180秒</span>
+<span id=mode class="ml-3 badge badge-info">EASY</span></div><div><button id=startButton class="btn btm-sm btn-primary">SPACE: スタート / ESC: リセット</button></div></div></div></div></div><div class=text-center><div id=countPanel hidden><div id=counter></div><pre class=aa>　　　　　　　　　　　|
+　　　　　　　　　 　 |　　彡⌒ミ
+　　　　　　　　　　　＼ (´･ω･`)また漢字の話してる
+　　　　　　　　　　　　　(|　　　|)::::
+　　　　　　　　　　　　 　(γ　/:::::::
+　　　　　　　　　　　　　　 し ＼:::
+　　　　　　　　　　　　　　　　　 ＼
+          </pre></div><div id=scorePanel class="text-center pb-3" hidden><h3 class=pt-3>タイピング結果</h3><pre class=aa>　　　　　γ⌒ヽ
+　　　　__/　　/
+　γ￣＿_） （　 Λ,,Λ
+　（ 　 ＿__）　）(｀・ω・´)　スコアだよ！
+　（　　＿__） ﾉﾍ　　　.. |&gt;
+　 乂＿__)_ノ　　しーＪ
+          </pre><table class="table table-striped"><tr><td>総タイプ数<td><span id=totalType></span><span>回</span><tr><td>スピード<td><span id=typeSpeed></span><span>回/秒</span><tr><td>ミスタイプ数<td><span id=errorType></span><span>回</span></table><a id=twitter target=_blank href="https://twitter.com/intent/tweet?text=漢字タイピングで遊んだよ!&url=https%3a%2f%2fmarmooo.github.com/kanji-typing%2f&hashtags=漢字タイピング" class="btn btn-primary" role=button>Twitter でつぶやく</a></div><div id=playPanel><div id=aaOuter><pre id=aa class=aa>■    ■  ■         ■     
+ ■ ■■■■■■■■       ■     
+     ■  ■    ■■■■■■■■■■■
+   ■■■■■■■   ■         ■
+■■ ■  ■  ■   ■ ■■■■■■■ ■
+ ■ ■■■■■■■         ■■   
+      ■           ■     
+   ■■■■■■■■  ■■■■■■■■■■■
+ ■■■■■■■■■■       ■     
+■■    ■■          ■     
+■   ■■  ■■        ■     
+   ■■     ■     ■■■ 
+
+H=HARD モードから
+E=EASY モードにできるぞ
+　 　 　　　　　　　　　　彡⌒ ミ　/　　彡⌒ ミ　　読み方がわからない時は？
+　 　 　 　 　 　 　 　 　 (｀・ω・)/　 　(･ω･´)
+　　　　　 彡⌒ ﾐ. 　 　 (　　　つ　 　 ( 　 　 ) .彡⌒ ミ　　F=ふりがなを表示
+　　　　　 ( ｀・ω) .／￣￣￣￣￣￣￣￣￣lll(ω・´ )　　R=ローマ字を表示
+　　　　　　|　　　つ、＿ 　　　　　　　　　Σ　⊂　　　|　　O=音声読み上げだ！
+　　彡⌒ ﾐゝ-／　／ ／ 　　　　　　　　　 ＿　─＼ノ
+　　( ｀・ω)／＿　 ￣　　　　　　　　　　　＼ ＼　 彡⌒ ミ
+　　 |　　つ／ ／　　　　　　 　 　 　 　 　 　 ￣ ⊂(ω-｀ )ヽ　　5 秒減るけどな
+　　 ゝ／　 ￣＝ o　　　　　　　　　　　　　　　　　　⊂二ノ　）
+　　　|￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣|
+            </pre></div><div id=typePanel class="fixed-bottom container"><div class="alert alert-info h2"><div id=japanese>かんじ</div><div id=roma>kanji</div></div></div></div></div></main><script src=index.js></script>
