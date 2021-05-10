@@ -291,7 +291,9 @@ function typeEvent(event) {
     });
     // ローマ字の候補が全部外れたときはエラー
     if (states.every(state => !state)) {
-      new Audio('cat.mp3').play();
+      const errorAudio = new Audio('cat.mp3');
+      errorAudio.volume = 0.3;
+      errorAudio.play();
       errorCount += 1;
     } else {
       // ローマ字がヒットしていない候補は削除
