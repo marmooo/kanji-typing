@@ -93,23 +93,10 @@
       </noscript>
       <div id="infoPanel">
         <div class="row text-center">
-          <div class="col-sm">
-            <div id="overview" class="alert alert-info d-none d-sm-block">
-              <button type="button" class="btn-close ms-3 d-sm-none" onclick="toggleOverview()" aria-label="閉じる"></button>
-              <p>漢字とタイピングを同時に学ぶアプリです。
-              </p>
-              <footer>
-                <div>
-                  <a class="px-1" href="/">Home</a>
-                  <a class="px-1" href="/terms/">Terms</a>
-                  <a class="px-1" href="https://github.com/marmooo/kanji-typing">Contact</a>
-                </div>
-                <div class="text-muted">&copy; <a href="https://github.com/marmooo">marmooo</a>
-                </div>
-              </footer>
-            </div>
+          <div class="col-sm-4 text-start">
+            <p>漢字とタイピングを同時に学ぶアプリです。
           </div>
-          <div class="col-sm">
+          <div class="col-sm-8">
             <div class="alert alert-info">
               <div class="h5">
                 <label><ruby>時間<rp>(</rp><rt>じかん</rt><rp>)</rp></ruby>:</label><span id="time" class="ms-1">180秒 / 180秒</span>
@@ -179,15 +166,22 @@
 　　　|￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣|
             </pre>
           </div>
-          <div id="typePanel" class="fixed-bottom container">
-            <div class="alert alert-info h2">
-              <div id="japanese">かんじ</div>
-              <div id="roma">kanji</div>
-            </div>
+          <div id="typePanel" class="alert alert-info h2">
+            <div id="japanese">かんじ</div>
+            <div id="roma">kanji</div>
           </div>
         </div>
       </div>
     </main>
+    <footer class="pt-4 alert text-center">
+      <div class="pt-3">
+        <a class="px-1" href="/">Home</a>
+        <a class="px-1" href="/terms/">Terms</a>
+        <a class="px-1" href="https://github.com/marmooo/kanji-typing">Contact</a>
+      </div>
+      <div class="text-muted">&copy; <a href="https://github.com/marmooo">marmooo</a>
+      </div>
+    </footer>
     <script src="index.js"></script>
   </body>
 </html>
