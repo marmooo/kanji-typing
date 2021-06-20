@@ -523,6 +523,7 @@ function startGame() {
 
 function startKeyEvent(event) {
   if (event.key == ' ' || event.key == 'Spacebar') {
+    startGame();
   }
 }
 document.addEventListener('keydown', startKeyEvent);
