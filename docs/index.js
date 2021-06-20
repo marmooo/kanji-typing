@@ -48,4 +48,4 @@ gradeOption.addEventListener('change',function(){initTime();document.addEventLis
 'をプレイしたよ! (速度: '+typeSpeed+'回/秒) '+
 '&url=https%3a%2f%2fmarmooo.github.com/hageda%2f&hashtags=漢字タイピング';document.addEventListener('keydown',startKeyEvent);}
 function changeMode(){if(this.textContent=='EASY'){this.textContent='HARD';}else{this.textContent='EASY';}}
-aa.parentNode.style.height=calcAAOuterSize()+'px';resizeFontSize(aa);window.addEventListener('resize',function(){aa.parentNode.style.height=calcAAOuterSize()+'px';resizeFontSize(aa);});mode.onclick=changeMode;
+aa.parentNode.style.height=calcAAOuterSize()+'px';resizeFontSize(aa);window.addEventListener('resize',function(){aa.parentNode.style.height=calcAAOuterSize()+'px';resizeFontSize(aa);});mode.onclick=changeMode;document.addEventListener('click',unlockAudio,{once:true,useCapture:true});

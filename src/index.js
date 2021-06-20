@@ -598,4 +598,5 @@ window.addEventListener('resize', function() {
   resizeFontSize(aa);
 });
 mode.onclick = changeMode;
+document.addEventListener('click', unlockAudio, { once:true, useCapture:true });
 
