@@ -399,7 +399,7 @@ function checkTypeStyle(currNode, word, key, romaNode, sound) {
     (nextWord == 'a' || nextWord == 'u' || nextWord == 'e' || nextWord == 'o')) {
     fixTypeStyle(currNode, key, sound);
     nextNode.textContent = nextWord;
-  } else if (prevWord == 'c' && word == 'h' && key == 'y'  // cha, chu, che, cho --> cya, cyu, cye, cyo
+  } else if (prevWord == 'c' && word == 'h' && key == 'y' &&  // cha, chu, che, cho --> cya, cyu, cye, cyo
     (nextWord == 'a' || nextWord == 'u' || nextWord == 'e' || nextWord == 'o')) {
     fixTypeStyle(currNode, key, sound);
     nextNode.textContent = nextWord;
