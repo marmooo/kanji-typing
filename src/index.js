@@ -541,7 +541,10 @@ function typeEventKey(key) {
 
 function replay() {
   clearInterval(typeTimer);
-  removeGuide(romaNode.childNodes[typeIndex]);
+  const romaNodes = [...romasNode.children];
+  romaNodes.forEach(romaNode => {
+    removeGuide(romaNode.childNodes[typeIndex]);
+  });
   document.removeEventListener('keydown', typeEvent);
   initTime();
   loadProblems();
