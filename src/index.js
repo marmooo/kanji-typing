@@ -684,6 +684,7 @@ function countdown() {
 
 function startKeyEvent(event) {
   if (event.key == ' ' || event.key == 'Spacebar') {
+    document.removeEventListener("keydown", startKeyEvent);
     replay();
   }
 }
@@ -740,7 +741,7 @@ function scoring() {
   document.getElementById('twitter').href = 'https://twitter.com/intent/tweet?text=漢字タイピングの' + grade +
     'をプレイしたよ! (速度: ' + typeSpeed + '回/秒) ' +
     '&url=https%3a%2f%2fmarmooo.github.com/hageda%2f&hashtags=漢字タイピング';
-  document.addEventListener('keydown', startKeyEvent, { once:true });
+  document.addEventListener('keydown', startKeyEvent);
 }
 
 function changeMode() {
@@ -761,6 +762,6 @@ mode.onclick = changeMode;
 document.getElementById('guideSwitch').onchange = toggleGuide;
 startButton.addEventListener('click', replay);
 document.addEventListener('keyup', upKeyEvent);
-document.addEventListener('keydown', startKeyEvent, { once:true });
+document.addEventListener('keydown', startKeyEvent);
 document.addEventListener('click', unlockAudio, { once:true, useCapture:true });
 
