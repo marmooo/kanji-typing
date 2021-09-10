@@ -7,7 +7,7 @@ const romasNode = document.getElementById('roma');
 const japanese = document.getElementById('japanese');
 const gradeOption = document.getElementById('gradeOption');
 const aa = document.getElementById('aa');
-const gameTime = 180;
+const gameTime = 120;
 const tmpCanvas = document.createElement('canvas');
 const mode = document.getElementById('mode');
 let typeTimer;
