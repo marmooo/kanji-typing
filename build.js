@@ -1,5 +1,3 @@
-// import { YomiDict } from "https://raw.githubusercontent.com/marmooo/yomi-dict/v0.1.0/mod.js";
-// import { YomiDict } from "https://raw.githubusercontent.com/marmooo/yomi-dict/master/mod.js";
 import { YomiDict} from "https://raw.githubusercontent.com/marmooo/yomi-dict/v0.1.1/mod.js";
 
 // https://babu-babu-baboo.hateblo.jp/entry/20091114/1258161477
