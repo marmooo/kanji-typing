@@ -205,7 +205,7 @@ for (let i = 1; i <= 10; i++) {
   const outPath = "src/data/" + i + ".tsv";
   const content = [];
   dicts.forEach((dict) => {
-    const words = Deno.readTextFileSync(dict + i + ".arr");
+    const words = Deno.readTextFileSync(dict + i + ".lst").split("\n");
     words.toString().split(",").forEach((word) => {
       const yomis = yomiDict.get(word);
       if (yomis) {
