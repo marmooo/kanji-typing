@@ -28,41 +28,33 @@ const AudioContext = window.AudioContext || window.webkitAudioContext;
 const audioContext = new AudioContext();
 const layout104 = {
   "default": [
-    "{esc} ` 1 2 3 4 5 6 7 8 9 0 -",
-    "{tab} q w e r t y u i o p [ ]",
-    "{lock} a s d f g h j k l ;",
-    "{shift} z x c v b n m , .",
+    "q w e r t y u i o p",
+    "a s d f g h j k l ;",
+    "z x c v b n m , .",
     "🌏 無変換 {space} 変換",
   ],
   "shift": [
-    "{esc} ~ ! @ # $ % ^ & * ( ) _",
-    "{tab} Q W E R T Y U I O P { }",
-    '{lock} A S D F G H J K L :',
-    "{shift} Z X C V B N M < >",
+    "Q W E R T Y U I O P",
+    'A S D F G H J K L :',
+    "Z X C V B N M < >",
     "🌏 無変換 {space} 変換",
   ],
 };
 const layout109 = {
   "default": [
-    "{esc} 1 2 3 4 5 6 7 8 9 0 -",
-    "{tab} q w e r t y u i o p",
-    "{lock} a s d f g h j k l ;",
-    "{shift} z x c v b n m , .",
+    "q w e r t y u i o p",
+    "a s d f g h j k l ;",
+    "z x c v b n m , .",
     "🌏 無変換 {space} 変換",
   ],
   "shift": [
-    "{esc} ! \" # $ % & ' ( ) =",
-    "{tab} Q W E R T Y U I O P",
-    "{lock} A S D F G H J K L +",
-    "{shift} Z X C V B N M < >",
+    "Q W E R T Y U I O P",
+    "A S D F G H J K L +",
+    "Z X C V B N M < >",
     "🌏 無変換 {space} 変換",
   ],
 };
 const keyboardDisplay = {
-  "{esc}": "Esc",
-  "{tab}": "Tab",
-  "{lock}": "Caps",
-  "{shift}": "Shift",
   "{space}": " ",
   "🌏": "🇯🇵",
 };
@@ -74,8 +66,6 @@ const simpleKeyboard = new SimpleKeyboard.default({
   },
   onKeyPress: function (input) {
     switch (input) {
-      case "{esc}":
-        return typeEventKey("Esc");
       case "{space}":
         return typeEventKey(" ");
       case "無変換":
@@ -96,14 +86,6 @@ const simpleKeyboard = new SimpleKeyboard.default({
             display: keyboardDisplay,
           });
         }
-        break;
-      }
-      case "{shift}":
-      case "{lock}": {
-        const shiftToggle = (simpleKeyboard.options.layoutName == "default")
-          ? "shift"
-          : "default";
-        simpleKeyboard.setOptions({ layoutName: shiftToggle });
         break;
       }
       default:
