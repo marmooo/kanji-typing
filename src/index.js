@@ -458,11 +458,10 @@ function upKeyEvent(event) {
 }
 
 function typeEvent(event) {
-  const key = patchEvent(event);
-  if (key == " " || key == "Spacebar") {
+  if (event.key == " " || event.key == "Spacebar") {
     event.preventDefault();  // ScrollLock
   }
-  typeEventKey(key);
+  typeEventKey(event.key);
 }
 
 function typeEventKey(key) {
