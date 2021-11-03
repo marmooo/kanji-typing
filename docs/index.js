@@ -35,7 +35,7 @@ japanese.textContent=romaNodes[0].dataset.yomi;if(typeIndex==romaNodes[0].childN
 case "Shift":case "CapsLock":if(guide){simpleKeyboard.setOptions({layoutName:"shift"});showGuide(romaNode.childNodes[typeIndex]);}
 break;case "Escape":case "Esc":replay();break;}}}
 function replay(){clearInterval(typeTimer);const romaNodes=[...romasNode.children];romaNodes.forEach((romaNode)=>{removeGuide(romaNode.childNodes[typeIndex]);});document.removeEventListener("keydown",typeEvent);initTime();loadProblems();countdown();typeIndex=normalCount=errorCount=solveCount=0;countPanel.classList.remove("d-none");scorePanel.classList.add("d-none");}
-function calcAAOuterSize(){let height=document.documentElement.clientHeight;height-=document.getElementById("header").offsetHeight;height-=document.getElementById("infoPanel").offsetHeight;height-=document.getElementById("typePanel").offsetHeight;height-=document.getElementById("keyboard").offsetHeight;return height;}
+function calcAAOuterSize(){let height=document.documentElement.clientHeight;height-=document.getElementById("header").offsetHeight;height-=document.getElementById("timePanel").offsetHeight;height-=document.getElementById("typePanel").offsetHeight;height-=document.getElementById("keyboard").offsetHeight;return height;}
 function resizeFontSize(node){function getTextWidth(text,font){const context=tmpCanvas.getContext("2d");context.font=font;const metrics=context.measureText(text);return metrics.width;}
 function getTextRect(text,fontSize,font,lineHeight){const lines=text.split("\n");const fontConfig=fontSize+"px "+font;let maxWidth=0;for(let i=0;i<lines.length;i++){const width=getTextWidth(lines[i],fontConfig);if(maxWidth<width){maxWidth=width;}}
 return[maxWidth,fontSize*lines.length*lineHeight];}
