@@ -4,10 +4,11 @@
 
 ## Installation
 
-1. install [marmooo/yomi-dict](https://github.com/marmooo/yomi-dict)
-2. install [marmooo/ngram-idioms](https://github.com/marmooo/ngram-idioms)
+- install [marmooo/yomi-dict](https://github.com/marmooo/yomi-dict) licensed under the CC-BY 4.0
+- install [marmooo/graded-vocab-ja](https://github.com/marmooo/graded-vocab-ja) licensed under the CC-BY 4.0
+- install [marmooo/graded-idioms-ja](https://github.com/marmooo/graded-idioms-ja) licensed under the CC-BY 4.0
 
 ## Build
 
-1. `deno run --allow-read --allow-write build.js`
-2. `bash build.sh`
+- `deno run --allow-read --allow-write build.js`
+- `bash build.sh`
