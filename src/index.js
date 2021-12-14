@@ -36,7 +36,7 @@ const layout104 = {
   ],
   "shift": [
     "Q W E R T Y U I O P",
-    'A S D F G H J K L :',
+    "A S D F G H J K L :",
     "Z X C V B N M < >",
     "🌏 無変換 {space} 変換",
   ],
@@ -460,7 +460,7 @@ function upKeyEvent(event) {
 
 function typeEvent(event) {
   if (event.key == " " || event.key == "Spacebar") {
-    event.preventDefault();  // ScrollLock
+    event.preventDefault(); // ScrollLock
   }
   typeEventKey(event.key);
 }
@@ -696,7 +696,7 @@ function countdown() {
 
 function startKeyEvent(event) {
   if (event.key == " " || event.key == "Spacebar") {
-    event.preventDefault();  // ScrollLock
+    event.preventDefault(); // ScrollLock
     document.removeEventListener("keydown", startKeyEvent);
     replay();
   }
