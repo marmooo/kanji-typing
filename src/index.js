@@ -253,7 +253,7 @@ function loadProblems() {
     fetch("data/" + grade + ".tsv").then(function (response) {
       return response.text();
     }).then(function (tsv) {
-      problems = tsv.split("\n").slice(0, -1).map((line) => {
+      problems = tsv.trim().split("\n").map((line) => {
         const [kanji, yomiStr, romaStr] = line.split("\t");
         const yomis = yomiStr.split("|");
         const romas = romaStr.split("|");
