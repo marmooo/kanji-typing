@@ -466,7 +466,7 @@ function typeEvent(event) {
 }
 
 function typeEventKey(key) {
-  if (key.match(/^[^0-9]$/)) {
+  if (/^[^0-9]$/.test(key)) {
     const romaNodes = [...romasNode.children];
     const states = romaNodes.map((romaNode, i) => {
       let sound = false;

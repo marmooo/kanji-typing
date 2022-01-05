@@ -1,4 +1,4 @@
-var CACHE_NAME = "2021-12-21 10:50";
+var CACHE_NAME = "2022-01-05 23:55";
 var urlsToCache = [
   "/kanji-typing/",
   "/kanji-typing/index.js",
