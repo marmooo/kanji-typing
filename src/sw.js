@@ -1,4 +1,4 @@
-var CACHE_NAME = "2022-01-05 23:55";
+var CACHE_NAME = "2022-02-20 09:20";
 var urlsToCache = [
   "/kanji-typing/",
   "/kanji-typing/index.js",
@@ -11,8 +11,7 @@ var urlsToCache = [
   "/kanji-typing/favicon/original.svg",
   "https://marmooo.github.io/fonts/textar-light.woff2",
   "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css",
-  "https://cdn.jsdelivr.net/npm/simple-keyboard@latest/build/index.js",
-  "https://cdn.jsdelivr.net/npm/simple-keyboard@latest/build/css/index.css",
+  "https://cdn.jsdelivr.net/npm/simple-keyboard@3.4.52/build/index.min.js",
 ];
 
 self.addEventListener("install", function (event) {
