@@ -1,13 +1,12 @@
-var CACHE_NAME = "2022-03-05 11:20";
+var CACHE_NAME = "2022-03-06 01:00";
 var urlsToCache = [
   "/kanji-typing/",
   "/kanji-typing/index.js",
-  "/kanji-typing/bgm.mp3",
-  "/kanji-typing/cat.mp3",
-  "/kanji-typing/correct.mp3",
-  "/kanji-typing/end.mp3",
-  "/kanji-typing/index.js",
-  "/kanji-typing/keyboard.mp3",
+  "/kanji-typing/mp3/bgm.mp3",
+  "/kanji-typing/mp3/cat.mp3",
+  "/kanji-typing/mp3/correct.mp3",
+  "/kanji-typing/mp3/end.mp3",
+  "/kanji-typing/mp3/keyboard.mp3",
   "/kanji-typing/favicon/original.svg",
   "https://marmooo.github.io/fonts/textar-light.woff2",
   "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css",
