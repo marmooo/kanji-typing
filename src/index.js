@@ -250,18 +250,18 @@ function loopVoice(text, n) {
 function loadProblems() {
   const grade = gradeOption.selectedIndex + 1;
   if (grade > 0) {
-    fetch("data/" + grade + ".tsv").then(function (response) {
-      return response.text();
-    }).then(function (tsv) {
-      problems = tsv.trim().split("\n").map((line) => {
-        const [kanji, yomiStr, romaStr] = line.split("\t");
-        const yomis = yomiStr.split("|");
-        const romas = romaStr.split("|");
-        return { kanji: kanji, yomis: yomis, romas: romas };
+    fetch("data/" + grade + ".tsv")
+      .then((response) => response.text())
+      .then((tsv) => {
+        problems = tsv.trimEnd().split("\n").map((line) => {
+          const [kanji, yomiStr, romaStr] = line.split("\t");
+          const yomis = yomiStr.split("|");
+          const romas = romaStr.split("|");
+          return { kanji: kanji, yomis: yomis, romas: romas };
+        });
+      }).catch(function (err) {
+        console.error(err);
       });
-    }).catch(function (err) {
-      console.error(err);
-    });
   }
 }
 
