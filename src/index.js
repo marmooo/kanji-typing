@@ -1,8 +1,9 @@
 const remSize = parseInt(getComputedStyle(document.documentElement).fontSize);
-const playPanel = document.getElementById("playPanel");
+const gamePanel = document.getElementById("gamePanel");
 const infoPanel = document.getElementById("infoPanel");
 const countPanel = document.getElementById("countPanel");
 const scorePanel = document.getElementById("scorePanel");
+const aaOuter = document.getElementById("aaOuter");
 const startButton = document.getElementById("startButton");
 const romasNode = document.getElementById("roma");
 const japanese = document.getElementById("japanese");
@@ -127,7 +128,6 @@ function toggleKeyboard() {
     virtualKeyboardOn.classList.remove("d-none");
     virtualKeyboardOff.classList.add("d-none");
     document.getElementById("keyboard").classList.remove("d-none");
-    aa.parentNode.style.height = calcAAOuterSize() + "px";
     resizeFontSize(aa);
   } else {
     virtualKeyboardOn.classList.add("d-none");
@@ -135,7 +135,6 @@ function toggleKeyboard() {
     document.getElementById("keyboard").classList.add("d-none");
     document.getElementById("guideSwitch").checked = false;
     guide = false;
-    aa.parentNode.style.height = calcAAOuterSize() + "px";
     resizeFontSize(aa);
   }
 }
@@ -147,14 +146,12 @@ function toggleGuide() {
     virtualKeyboardOn.classList.remove("d-none");
     virtualKeyboardOff.classList.add("d-none");
     document.getElementById("keyboard").classList.remove("d-none");
-    aa.parentNode.style.height = calcAAOuterSize() + "px";
     resizeFontSize(aa);
     guide = true;
   } else {
     virtualKeyboardOn.classList.add("d-none");
     virtualKeyboardOff.classList.remove("d-none");
     document.getElementById("keyboard").classList.add("d-none");
-    aa.parentNode.style.height = calcAAOuterSize() + "px";
     resizeFontSize(aa);
     guide = false;
   }
@@ -397,7 +394,7 @@ function checkTypeStyle(currNode, word, key, romaNode) {
 }
 
 function typeNormal(currNode, sound) {
-  currNode.classList.remove("d-none");
+  currNode.style.visibility = "visible";
   if (sound) {
     playAudio(keyboardAudio);
   }
@@ -519,7 +516,7 @@ function typeEventKey(key) {
         japanese.textContent = romasNode.children[0].dataset.yomi;
         japanese.style.visibility = "visible";
         [...romasNode.children[0].children].forEach((span) => {
-          span.classList.remove("d-none");
+          span.style.visibility = "visible";
         });
         downTime(5);
         break;
@@ -552,15 +549,6 @@ function replay() {
   typeIndex = normalCount = errorCount = solveCount = 0;
   countPanel.classList.remove("d-none");
   scorePanel.classList.add("d-none");
-}
-
-function calcAAOuterSize() {
-  let height = document.documentElement.clientHeight;
-  height -= document.getElementById("headerNav").offsetHeight;
-  height -= document.getElementById("timePanel").offsetHeight;
-  height -= document.getElementById("typePanel").offsetHeight;
-  height -= document.getElementById("keyboard").offsetHeight;
-  return height;
 }
 
 function resizeFontSize(node) {
@@ -596,7 +584,7 @@ function resizeFontSize(node) {
   const font = style.fontFamily;
   const fontSize = parseFloat(style.fontSize);
   const lineHeight = parseFloat(style.lineHeight) / fontSize;
-  const nodeHeight = calcAAOuterSize();
+  const nodeHeight = document.getElementById("aaOuter").offsetHeight;
   const nodeWidth = infoPanel.clientWidth;
   const nodeRect = [nodeWidth, nodeHeight];
   const textRect = getTextRect(node.textContent, fontSize, font, lineHeight);
@@ -650,7 +638,7 @@ function typable() {
     for (let j = 0; j < roma.length; j++) {
       const span = document.createElement("span");
       if (i != 0 || mode.textContent != "EASY") {
-        span.classList.add("d-none");
+        span.style.visibility = "hidden";
       }
       span.textContent = roma[j];
       romaNode.appendChild(span);
@@ -664,10 +652,8 @@ function countdown() {
   typeIndex = normalCount = errorCount = solveCount = 0;
   document.getElementById("guideSwitch").disabled = true;
   document.getElementById("virtualKeyboard").disabled = true;
-  infoPanel.classList.add("d-none");
-  playPanel.classList.add("d-none");
+  gamePanel.classList.add("d-none");
   countPanel.classList.remove("d-none");
-  scorePanel.classList.add("d-none");
   counter.textContent = 3;
   const timer = setInterval(function () {
     const counter = document.getElementById("counter");
@@ -680,9 +666,11 @@ function countdown() {
       clearInterval(timer);
       document.getElementById("guideSwitch").disabled = false;
       document.getElementById("virtualKeyboard").disabled = false;
+      gamePanel.classList.remove("d-none");
+      countPanel.classList.add("d-none");
       infoPanel.classList.remove("d-none");
       playPanel.classList.remove("d-none");
-      countPanel.classList.add("d-none");
+      aaOuter.classList.remove("d-none");
       scorePanel.classList.add("d-none");
       typable();
       startTypeTimer();
@@ -743,6 +731,7 @@ gradeOption.addEventListener("change", function () {
 function scoring() {
   infoPanel.classList.remove("d-none");
   playPanel.classList.add("d-none");
+  aaOuter.classList.add("d-none");
   countPanel.classList.add("d-none");
   scorePanel.classList.remove("d-none");
   document.removeEventListener("keydown", typeEvent);
@@ -766,14 +755,12 @@ function changeMode() {
   }
 }
 
-aa.parentNode.style.height = calcAAOuterSize() + "px";
 resizeFontSize(aa);
 
 document.getElementById("toggleDarkMode").onclick = toggleDarkMode;
 document.getElementById("toggleBGM").onclick = toggleBGM;
 document.getElementById("virtualKeyboard").onclick = toggleKeyboard;
 window.addEventListener("resize", function () {
-  aa.parentNode.style.height = calcAAOuterSize() + "px";
   resizeFontSize(aa);
 });
 mode.onclick = changeMode;
