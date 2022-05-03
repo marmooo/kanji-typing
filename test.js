@@ -88,6 +88,11 @@ function toRoman(str) {
     "ぎゃ": "gya",
     "ぎゅ": "gyu",
     "ぎょ": "gyo",
+    "ゔぁ": "va",
+    "ゔぃ": "vi",
+    "ゔ": "vu",
+    "ゔぇ": "ve",
+    "ゔぉ": "vo",
     "ぱ": "pa",
     "ぴ": "pi",
     "ぷ": "pu",
@@ -201,3 +206,4 @@ function toRoman(str) {
 console.log(toRoman("しんあい")); // (x) shinai  (o) shinnai, shin-ai
 console.log(toRoman("にほんばし")); // (x) nihombasi  (o) nihonnbasi
 console.log(toRoman("あっち"));
+console.log(toRoman("いゔ"));
