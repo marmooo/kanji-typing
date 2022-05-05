@@ -647,7 +647,7 @@ function typable() {
     romasNode.appendChild(romaNode);
     for (let j = 0; j < roma.length; j++) {
       const span = document.createElement("span");
-      if (i != 0 || mode.textContent != "EASY") {
+      if (mode.textContent != "EASY") {
         span.style.visibility = "hidden";
       }
       span.textContent = roma[j];
