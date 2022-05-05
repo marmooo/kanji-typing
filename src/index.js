@@ -402,12 +402,12 @@ function checkTypeStyle(currNode, word, key, romaNode) {
 
 function typeNormal(currNode, sound) {
   currNode.style.visibility = "visible";
+  currNode.style.color = "silver";
   if (sound) {
     playAudio(keyboardAudio);
+    typeIndex += 1;
+    normalCount += 1;
   }
-  currNode.style.color = "silver";
-  typeIndex += 1;
-  normalCount += 1;
 }
 
 function nextProblem() {
@@ -472,11 +472,8 @@ function typeEvent(event) {
 function typeEventKey(key) {
   if (/^[^0-9]$/.test(key)) {
     const romaNodes = [...romasNode.children];
-    const states = romaNodes.map((romaNode, i) => {
-      let sound = false;
-      if (i == 0) {
-        sound = true;
-      }
+    const sound = false;
+    const states = romaNodes.map(romaNode => {
       const currNode = romaNode.childNodes[typeIndex];
       if (key == currNode.textContent) {
         typeNormal(currNode, sound);
@@ -497,6 +494,9 @@ function typeEventKey(key) {
       playAudio(incorrectAudio, 0.3);
       errorCount += 1;
     } else {
+      playAudio(keyboardAudio);
+      typeIndex += 1;
+      normalCount += 1;
       let firstHit = true;
       romaNodes.forEach((romaNode, i) => {
         if (!states[i]) {
@@ -504,7 +504,6 @@ function typeEventKey(key) {
           romaNode.remove();
         } else if (firstHit) {
           // ヒットしたら残し、先頭だけ見えるようにする
-          console.log(romaNode);
           romaNode.classList.remove("d-none");
           japanese.textContent = romaNode.dataset.yomi;
           firstHit = false;
