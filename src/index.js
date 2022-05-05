@@ -497,19 +497,22 @@ function typeEventKey(key) {
       playAudio(incorrectAudio, 0.3);
       errorCount += 1;
     } else {
-      // ローマ字がヒットしていない候補は削除
-      states.forEach((state, i) => {
-        if (!state) {
-          romaNodes[i].dataset.nohit = true;
-        }
-      });
-      romaNodes.forEach((romaNode) => {
-        if (romaNode.dataset.nohit) {
+      let firstHit = true;
+      romaNodes.forEach((romaNode, i) => {
+        if (!states[i]) {
+          // ローマ字がヒットしていない候補は削除
           romaNode.remove();
+        } else if (firstHit) {
+          // ヒットしたら残し、先頭だけ見えるようにする
+          console.log(romaNode);
+          romaNode.classList.remove("d-none");
+          japanese.textContent = romaNode.dataset.yomi;
+          firstHit = false;
+        } else {
+          romaNode.classList.add("d-none");
         }
       });
     }
-    japanese.textContent = romaNodes[0].dataset.yomi;
     if (typeIndex == romaNodes[0].childNodes.length) { // tsu --> tu などの変換後に終端に到着したとき
       nextProblem();
     } else {
@@ -640,6 +643,7 @@ function typable() {
   }
   problem.romas.forEach((roma, i) => {
     const romaNode = document.createElement("span");
+    if (i != 0) romaNode.classList.add("d-none");
     romaNode.dataset.yomi = problem.yomis[i];
     romasNode.appendChild(romaNode);
     for (let j = 0; j < roma.length; j++) {
