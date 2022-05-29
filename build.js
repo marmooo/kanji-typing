@@ -1,5 +1,5 @@
 import { readLines } from "https://deno.land/std/io/mod.ts";
-import { YomiDict } from "https://raw.githubusercontent.com/marmooo/yomi-dict/v0.1.1/mod.js";
+import { YomiDict } from "https://raw.githubusercontent.com/marmooo/yomi-dict/v0.1.2/mod.js";
 
 // https://babu-babu-baboo.hateblo.jp/entry/20091114/1258161477
 // https://ja.wikipedia.org/wiki/ローマ字
