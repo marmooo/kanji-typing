@@ -9,9 +9,10 @@ const romasNode = document.getElementById("roma");
 const japanese = document.getElementById("japanese");
 const gradeOption = document.getElementById("gradeOption");
 const aa = document.getElementById("aa");
-const gameTime = 120;
 const tmpCanvas = document.createElement("canvas");
 const mode = document.getElementById("mode");
+const gameTime = 120;
+let playing;
 let typeTimer;
 // https://dova-s.jp/bgm/play1754.html
 const bgm = new Audio("mp3/bgm.mp3");
@@ -472,6 +473,34 @@ function typeEvent(event) {
 }
 
 function typeEventKey(key) {
+  switch (key) {
+    case "NonConvert": {
+      const text = romasNode.children[0].textContent;
+      loopVoice(text, 1);
+      japanese.textContent = romasNode.children[0].dataset.yomi;
+      japanese.style.visibility = "visible";
+      [...romasNode.children[0].children].forEach((span) => {
+        span.style.visibility = "visible";
+      });
+      downTime(5);
+      return;
+    }
+    case "Shift":
+    case "CapsLock":
+      if (guide) {
+        simpleKeyboard.setOptions({ layoutName: "shift" });
+        showGuide(romaNode.childNodes[typeIndex]);
+      }
+      return;
+    case "Escape":
+      replay();
+      return;
+    case " ":
+      if (!playing) {
+        replay();
+        return;
+      }
+  }
   if (/^[^0-9]$/.test(key)) {
     const romaNodes = [...romasNode.children];
     const sound = false;
@@ -519,31 +548,6 @@ function typeEventKey(key) {
     } else {
       showGuide(romaNodes[0].childNodes[typeIndex]);
     }
-  } else {
-    switch (key) {
-      case "NonConvert": {
-        const text = romasNode.children[0].textContent;
-        loopVoice(text, 1);
-        japanese.textContent = romasNode.children[0].dataset.yomi;
-        japanese.style.visibility = "visible";
-        [...romasNode.children[0].children].forEach((span) => {
-          span.style.visibility = "visible";
-        });
-        downTime(5);
-        break;
-      }
-      case "Shift":
-      case "CapsLock":
-        if (guide) {
-          simpleKeyboard.setOptions({ layoutName: "shift" });
-          showGuide(romaNode.childNodes[typeIndex]);
-        }
-        break;
-      case "Escape":
-      case "Esc":
-        replay();
-        break;
-    }
   }
 }
 
@@ -553,7 +557,6 @@ function replay() {
   romaNodes.forEach((romaNode) => {
     removeGuide(romaNode.childNodes[typeIndex]);
   });
-  document.removeEventListener("keydown", typeEvent);
   initTime();
   loadProblems();
   countdown();
@@ -665,6 +668,7 @@ function typable() {
 }
 
 function countdown() {
+  playing = true;
   typeIndex =
     normalCount =
     errorCount =
@@ -700,14 +704,6 @@ function countdown() {
       document.addEventListener("keydown", typeEvent);
     }
   }, 1000);
-}
-
-function startKeyEvent(event) {
-  if (event.key == " " || event.key == "Spacebar") {
-    event.preventDefault(); // ScrollLock
-    document.removeEventListener("keydown", startKeyEvent);
-    replay();
-  }
 }
 
 function startTypeTimer() {
@@ -749,12 +745,12 @@ gradeOption.addEventListener("change", function () {
 });
 
 function scoring() {
+  playing = false;
   infoPanel.classList.remove("d-none");
   playPanel.classList.add("d-none");
   aaOuter.classList.add("d-none");
   countPanel.classList.add("d-none");
   scorePanel.classList.remove("d-none");
-  document.removeEventListener("keydown", typeEvent);
   const grade = gradeOption.options[gradeOption.selectedIndex].value;
   const typeSpeed = (normalCount / gameTime).toFixed(2);
   document.getElementById("totalType").textContent = normalCount + errorCount;
@@ -764,7 +760,6 @@ function scoring() {
     "https://twitter.com/intent/tweet?text=漢字タイピングの" + grade +
     "をプレイしたよ! (速度: " + typeSpeed + "回/秒) " +
     "&url=https%3a%2f%2fmarmooo.github.com/kanji-typing/%2f&hashtags=漢字タイピング";
-  document.addEventListener("keydown", startKeyEvent);
 }
 
 function changeMode() {
@@ -787,7 +782,7 @@ mode.onclick = changeMode;
 document.getElementById("guideSwitch").onchange = toggleGuide;
 startButton.addEventListener("click", replay);
 document.addEventListener("keyup", upKeyEvent);
-document.addEventListener("keydown", startKeyEvent);
+document.addEventListener("keydown", typeEvent);
 document.addEventListener("click", unlockAudio, {
   once: true,
   useCapture: true,
