@@ -33,13 +33,13 @@ const layout104 = {
     "q w e r t y u i o p",
     "a s d f g h j k l ;",
     "z x c v b n m , .",
-    "🌏 無変換 {space} 変換",
+    "🌏 {altLeft} {space} {altRight}",
   ],
   "shift": [
     "Q W E R T Y U I O P",
     "A S D F G H J K L :",
     "Z X C V B N M < >",
-    "🌏 無変換 {space} 変換",
+    "🌏 {altLeft} {space} {altRight}",
   ],
 };
 const layout109 = {
@@ -58,10 +58,12 @@ const layout109 = {
 };
 const keyboardDisplay = {
   "{space}": " ",
-  "🌏": "🇯🇵",
+  "{altLeft}": "Alt",
+  "{altRight}": "Alt",
+  "🌏": (navigator.language == "ja") ? "🇯🇵" : "🇺🇸",
 };
 const simpleKeyboard = new SimpleKeyboard.default({
-  layout: layout109,
+  layout: (navigator.language == "ja") ? layout109 : layout104,
   display: keyboardDisplay,
   onInit: function () {
     document.getElementById("keyboard").classList.add("d-none");
@@ -473,7 +475,7 @@ function typeEventKey(key) {
   if (/^[^0-9]$/.test(key)) {
     const romaNodes = [...romasNode.children];
     const sound = false;
-    const states = romaNodes.map(romaNode => {
+    const states = romaNodes.map((romaNode) => {
       const currNode = romaNode.childNodes[typeIndex];
       if (key == currNode.textContent) {
         typeNormal(currNode, sound);
@@ -555,7 +557,11 @@ function replay() {
   initTime();
   loadProblems();
   countdown();
-  typeIndex = normalCount = errorCount = solveCount = 0;
+  typeIndex =
+    normalCount =
+    errorCount =
+    solveCount =
+      0;
   countPanel.classList.remove("d-none");
   scorePanel.classList.add("d-none");
 }
@@ -659,7 +665,11 @@ function typable() {
 }
 
 function countdown() {
-  typeIndex = normalCount = errorCount = solveCount = 0;
+  typeIndex =
+    normalCount =
+    errorCount =
+    solveCount =
+      0;
   document.getElementById("guideSwitch").disabled = true;
   document.getElementById("virtualKeyboard").disabled = true;
   gamePanel.classList.add("d-none");
