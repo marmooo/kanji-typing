@@ -139,27 +139,32 @@ sudo apt install festival speech-dispatcher-festival</code></pre>
             </div>
             <div id="timePanel" class="col-sm">
               <div class="alert alert-info">
-                <div class="row flex-wrap">
-                  <div class="col p-1 h5 text-nowrap">
-                    <label><ruby>時間<rp>(</rp><rt>じかん</rt><rp>)</rp></ruby>:</label>
-                    <span id="time" class="ms-1">120秒 / 120秒</span>
+                <div class="d-flex flex-wrap justify-content-center">
+                  <div class="h5 text-nowrap me-4 notranslate">
+                    <span id="time">120</span>
+                    <span> / 120 sec</span>
                   </div>
-                  <div class="col p-1 m-auto">
-                    <button id="mode" class="btn btn-secondary btn-sm">EASY</button>
+                  <div>
+                    <button id="mode" class="btn btn-secondary btn-sm notranslate">EASY</button>
                     <div class="form-check form-check-inline form-switch text-nowrap ms-1">
                       <input class="form-check-input" type="checkbox" id="guideSwitch">
                       <label class="form-check-label" for="guideSwitch">ガイド</label>
                     </div>
                   </div>
                 </div>
-                <div class="pt-1">
-                  <button id="startButton" class="btn btm-sm btn-primary">SPACE: スタート / ESC: リセット</button>
+                <div class="mt-2">
+                  <button id="startButton" class="btn btm-sm btn-primary">
+                    <kbd>Space</kbd>
+                    <span class="ms-1">スタート</span>
+                    <kbd class="ms-3">Esc</kbd>
+                    <span class="ms-1">リセット</span>
+                  </button>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div id="aaOuter" class="flex-grow-1">
+        <div id="aaOuter" class="flex-grow-1 notranslate">
           <pre id="aa" class="aa">　 　 　　　　　　　　　　彡⌒ ミ　/　　彡⌒ ミ　　読み方がわからない時は？
 　 　 　 　 　 　 　 　 　 (｀・ω・)/　 　(･ω･´)
 　　　　　 彡⌒ ﾐ. 　 　 (　　　つ　 　 ( 　 　 ) .彡⌒ ミ
@@ -172,7 +177,7 @@ sudo apt install festival speech-dispatcher-festival</code></pre>
 　　　|￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣|
           </pre>
         </div>
-        <div id="playPanel">
+        <div id="playPanel" class="notranslate">
           <div id="typePanel" class="alert alert-info h2 mb-0 text-center">
             <div id="japanese">かんじ</div>
             <div id="roma">kanji</div>
@@ -180,14 +185,19 @@ sudo apt install festival speech-dispatcher-festival</code></pre>
           <div id="keyboard" class="d-none simple-keyboard"></div>
         </div>
         <div id="scorePanel" class="text-center pb-3 d-none">
-          <h3 class="pt-3">タイピング結果</h3>
-          <pre class="aa">　　　　　γ⌒ヽ
+          <h3 class="pt-3">スコア</h3>
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="notranslate">
+              <pre class="aa">　　　　　γ⌒ヽ
   　　　　__/　　/
   　γ￣＿_） （　 Λ,,Λ
-  　（ 　 ＿__）　）(｀・ω・´)　スコアだよ！
+  　（ 　 ＿__）　）(｀・ω・´)
   　（　　＿__） ﾉﾍ　　　.. |&gt;
   　 乂＿__)_ノ　　しーＪ
-          </pre>
+              </pre>
+            </div>
+            <div class="ps-1">スコアだよ！</div>
+          </div>
           <table class="table table-striped">
             <tr><td>総タイプ数</td><td><span id="totalType"></span> <span>回</span></td></tr>
             <tr><td>スピード</td><td><span id="typeSpeed"></span> <span>回/秒</span></td></tr>
@@ -197,15 +207,20 @@ sudo apt install festival speech-dispatcher-festival</code></pre>
         </div>
       </div>
       <div id="countPanel" class="text-center d-none">
-        <div id="counter"></div>
-        <pre class="aa">　　　　　　　　　　　|
+        <div id="counter" class="notranslate"></div>
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="notranslate">
+            <pre class="aa">　　　　　　　　　　　|
 　　　　　　　　　 　 |　　彡⌒ミ
-　　　　　　　　　　　＼ (´･ω･`)また漢字の話してる
+　　　　　　　　　　　＼ (´･ω･`)
 　　　　　　　　　　　　　(|　　　|)::::
 　　　　　　　　　　　　 　(γ　/:::::::
 　　　　　　　　　　　　　　 し ＼:::
 　　　　　　　　　　　　　　　　　 ＼
-          </pre>
+            </pre>
+          </div>
+          <div class="ps-1">また漢字の半死してる</div>
+        </div>
       </div>
     </main>
     <footer class="pt-4 alert text-center">
