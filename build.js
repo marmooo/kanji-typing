@@ -240,14 +240,15 @@ async function build(threshold) {
     words.push(...vocab);
     words.push(...idioms);
     words = [...new Set(words)];
-    words.forEach((word) => {
-      const yomis = yomiDict.get(word);
-      if (yomis) {
-        const romas = yomis.map((yomi) => toRoman(yomi));
-        const line = word + "\t" + yomis.join("|") + "\t" + romas.join("|");
-        result.push(line);
-      }
-    });
+    for (const word of words) {
+      let yomis = yomiDict.get(word);
+      if (!yomis) continue;
+      yomis = yomis.filter((yomi) => yomi.at(-1) != "っ");
+      if (yomis.length == 0) continue;
+      const romas = yomis.map((yomi) => toRoman(yomi));
+      const line = word + "\t" + yomis.join("|") + "\t" + romas.join("|");
+      result.push(line);
+    }
     const outPath = "src/data/" + level + ".tsv";
     Deno.writeTextFileSync(outPath, result.join("\n"));
   }

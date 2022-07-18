@@ -70,7 +70,7 @@
 作る	つくる|づくる	tsukuru|dukuru
 交通	こうつう	koutsuu
 回答	かいとう	kaitou
-科学	かがく|かがっ	kagaku|kagaxtu
+科学	かがく	kagaku
 教室	きょうしつ	kyoushitsu
 国内	こくない	kokunai
 会場	かいじょう	kaijou
@@ -286,7 +286,7 @@
 入場	にゅうじょう	nyuujou
 地点	ちてん	chitenn
 朝日	あさひ	asahi
-数学	すうがく|すうがっ	suugaku|suugaxtu
+数学	すうがく	suugaku
 回し	まわし	mawashi
 帰国	きこく	kikoku
 電池	でんち	dennchi
@@ -354,7 +354,7 @@
 日光	にっこう	nikkou
 高める	たかめる	takameru
 点数	てんすう	tennsuu
-親父	おやじ|しんぷ|おやっ	oyaji|shinnpu|oyaxtu
+親父	おやじ|しんぷ	oyaji|shinnpu
 天才	てんさい	tennsai
 同人	どうじん|どうにん	doujinn|douninn
 社内	しゃない	shanai
@@ -410,7 +410,7 @@
 歩行	ほこう	hokou
 高山	こうざん	kouzann
 分間	ふんかん|ぶんけん|ぷんかん	funnkann|bunnkenn|punnkann
-工学	こうがく|こうがっ	kougaku|kougaxtu
+工学	こうがく	kougaku
 小売	こうり	kouri
 公立	こうりつ	kouritsu
 回る	まわる|めぐる	mawaru|meguru
@@ -476,7 +476,7 @@
 同年	どうねん	dounenn
 公正	こうせい	kousei
 新書	しんしょ	shinnsho
-三角	さんかく|みつかど|さんかっ	sannkaku|mitsukado|sannkaxtu
+三角	さんかく|みつかど	sannkaku|mitsukado
 通い	かよい|がよい	kayoi|gayoi
 光る	ひかる	hikaru
 姉ちゃん	ねえちゃん	neetyann
@@ -502,7 +502,7 @@
 合間	あいま	aima
 一行	いっこう|ひとくだり	ikkou|hitokudari
 歩み	あゆみ	ayumi
-語学	ごがく|ごがっ	gogaku|gogaxtu
+語学	ごがく	gogaku
 会える	あえる	aeru
 上回る	うわまわる	uwamawaru
 理科	りか	rika
@@ -622,7 +622,7 @@
 外す	はずす|ぱずす	hazusu|pazusu
 小池	こいけ	koike
 気合い	きあい	kiai
-光学	こうがく|こうがっ	kougaku|kougaxtu
+光学	こうがく	kougaku
 土台	どだい	dodai
 当てる	あてる	ateru
 台場	だいば	daiba
@@ -762,7 +762,7 @@
 古今	こきん|ここん	kokinn|kokonn
 やり直し	やりなおし	yarinaoshi
 南方	なんぽう	nannpou
-理学	りがく|りがっ	rigaku|rigaxtu
+理学	りがく	rigaku
 谷口	たにぐち	taniguchi
 合図	あいず	aizu
 話せる	はなせる	hanaseru
@@ -1023,7 +1023,7 @@
 見聞	けんぶん|けんもん	kennbunn|kennmonn
 弱体	じゃくたい	jakutai
 多し	おおし	ooshi
-多角	たかく|たかっ	takaku|takaxtu
+多角	たかく	takaku
 分り	わかり	wakari
 近づける	ちかづける	chikadukeru
 同い年	おないどし	onaidoshi
@@ -1180,7 +1180,7 @@
 弱火	よわび	yowabi
 本道	ほんどう	honndou
 算入	さんにゅう	sannnyuu
-四角	しかく|よつかど|しかっ	shikaku|yotsukado|shikaxtu
+四角	しかく|よつかど	shikaku|yotsukado
 秋月	しゅうげつ	shuugetsu
 東南	とうなん	tounann
 万里	ばんり	bannri
@@ -1521,7 +1521,7 @@
 日米	にちべい	nichibei
 百万	ひゃくまん	hyakumann
 中国語	ちゅうごくご	tyuugokugo
-数十	すうじゅう|すうじっ|すうじゅっ	suujuu|suujixtu|suujuxtu
+数十	すうじゅう	suujuu
 子会社	こがいしゃ	kogaisha
 長時間	ちょうじかん	tyoujikann
 原子力	げんしりょく	gennshiryoku
@@ -1531,11 +1531,11 @@
 女子高	じょしこう	joshikou
 一戸	いっこ	ikko
 水曜日	すいようび	suiyoubi
-数百	すーひゃく|すーひゃっ	su-hyaku|su-hyaxtu
+数百	すーひゃく	su-hyaku
 火曜日	かようび	kayoubi
 本作	ほんさく	honnsaku
 女子高生	じょしこうせい	joshikousei
-何十	なんじゅう|なんじっ|なんじゅっ	nannjuu|nannjixtu|nannjuxtu
+何十	なんじゅう	nannjuu
 円高	えんだか	enndaka
 食生活	しょくせいかつ	shokuseikatsu
 一点	いってん	ittenn
@@ -1559,7 +1559,7 @@
 今一	いまいち	imaichi
 通知書	つうちしょ	tsuuchisho
 会社名	かいしゃめい	kaishamei
-何百	なんびゃく|なんびゃっ	nannbyaku|nannbyaxtu
+何百	なんびゃく	nannbyaku
 朝一	あさいち	asaichi
 外出先	がいしゅつさき	gaishutsusaki
 分科会	ぶんかかい	bunnkakai
@@ -1603,7 +1603,7 @@
 公文書	こうぶんしょ	koubunnsho
 入門書	にゅうもんしょ	nyuumonnsho
 小顔	こがお	kogao
-六角	ろっかく|ろっかっ	rokkaku|rokkaxtu
+六角	ろっかく	rokkaku
 日本刀	にっぽんとう|にほんとう	nipponntou|nihonntou
 図書室	としょしつ	toshoshitsu
 天文台	てんもんだい	tennmonndai

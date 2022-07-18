@@ -183,7 +183,7 @@
 首相	しゅしょう	shushou
 旅館	りょかん	ryokann
 近所	きんじょ	kinnjo
-有り	あり|はべり	ari|haberi
+有り	あり	ari
 強化	きょうか	kyouka
 実行	じっこう	jikkou
 他人	たにん|ひと|びと	taninn|hito|bito
@@ -228,7 +228,7 @@
 文庫	ぶんこ	bunnko
 列車	れっしゃ	ressha
 代わり	かわり|がわり	kawari|gawari
-化学	かがく|かがっ|ばけがく	kagaku|kagaxtu|bakegaku
+化学	かがく|ばけがく	kagaku|bakegaku
 取る	とる|どる	toru|doru
 流し	ながし	nagashi
 乗り	のり	nori
@@ -268,7 +268,7 @@
 暑い	あつい|あちい	atsui|achii
 中身	なかみ	nakami
 同意	どうい	doui
-医学	いがく|いがっ	igaku|igaxtu
+医学	いがく	igaku
 実家	じっか	jikka
 進行	しんこう	shinnkou
 投げ	なげ	nage
@@ -352,7 +352,7 @@
 乗る	のる	noru
 首都	しゅと	shuto
 三重	さんじゅう|みえ	sannjuu|mie
-有る	ある|はべる	aru|haberu
+有る	ある	aru
 調理	ちょうり	tyouri
 上部	じょうぶ	joubu
 気味	きみ|ぎみ	kimi|gimi
@@ -1027,7 +1027,6 @@
 中級	ちゅうきゅう	tyuukyuu
 直進	ちょくしん	tyokushinn
 千代	ちよ|せんだい	chiyo|senndai
-真っ	まっ	maxtu
 紙面	しめん	shimenn
 帰路	きろ	kiro
 真っ黒	まっくろ	makkuro
@@ -1123,7 +1122,7 @@
 平山	ひらやま	hirayama
 配り	くばり	kubari
 洋画	ようが	youga
-旅客	りょかく|りょきゃく|りょかっ	ryokaku|ryokyaku|ryokaxtu
+旅客	りょかく|りょきゃく	ryokaku|ryokyaku
 終り	おわり	owari
 想う	おもう	omou
 急ぐ	いそぐ	isogu
@@ -1407,7 +1406,7 @@
 他所	たしょ|よそ	tasho|yoso
 助け合い	たすけあい	tasukeai
 葉書	はがき	hagaki
-美学	びがく|びがっ	bigaku|bigaxtu
+美学	びがく	bigaku
 切れ味	きれあじ	kireaji
 植える	うえる	ueru
 小指	こゆび	koyubi
@@ -1557,7 +1556,7 @@
 有意	ゆうい	yuui
 左岸	さがん	sagann
 銀山	ぎんざん	ginnzann
-神学	しんがく|しんがっ	shinngaku|shinngaxtu
+神学	しんがく	shinngaku
 家主	やぬし|いえぬし|いえあるじ	yanushi|ienushi|iearuji
 深まる	ふかまる	fukamaru
 和光	わこう	wakou
@@ -1629,7 +1628,7 @@
 流氷	りゅうひょう	ryuuhyou
 風化	ふうか	fuuka
 送れる	おくれる	okureru
-薬学	やくがく|やくがっ	yakugaku|yakugaxtu
+薬学	やくがく	yakugaku
 身勝手	みがって	migatte
 住戸	じゅうこ	juuko
 悪事	あくじ	akuji
@@ -1819,7 +1818,6 @@
 予後	よご	yogo
 写す	うつす	utsusu
 死角	しかく	shikaku
-相鉄	そうてつ	soutetsu
 一期一会	いちごいちえ	ichigoichie
 安っぽい	やすっぽい	yasuppoi
 勝ち負け	かちまけ	kachimake
