@@ -1,7 +1,7 @@
 検索	けんさく	kennsaku
 購入	こうにゅう	kounyuu
 一緒	いっしょ	issho
-戻る	もどる|もとる	modoru|motoru
+戻る	もどる	modoru
 監督	かんとく	kanntoku
 雰囲気	ふんいき	funniki
 釣り	つり|づり	tsuri|duri
@@ -10,7 +10,7 @@
 充実	じゅうじつ	juujitsu
 風呂	ふろ|ぶろ	furo|buro
 分析	ぶんせき	bunnseki
-馬鹿	ばか|ばかげ	baka|bakage
+馬鹿	ばか	baka
 診療	しんりょう	shinnryou
 挑戦	ちょうせん	tyousenn
 症状	しょうじょう	shoujou
@@ -35,7 +35,7 @@
 癒し	いやし	iyashi
 購読	こうどく	koudoku
 履歴	りれき	rireki
-戻り	もどり|もとり	modori|motori
+戻り	もどり	modori
 妊娠	にんしん	ninnshinn
 宜しく	よろしく	yoroshiku
 焼酎	しょうちゅう|じょうちゅう	shoutyuu|joutyuu
@@ -52,7 +52,7 @@
 必須	ひっす|ひっしゅ	hissu|hisshu
 疾患	しっかん	shikkann
 捜査	そうさ	sousa
-臭い	くさい|におい|ぐさい	kusai|nioi|gusai
+臭い	におい|くさい	nioi|kusai
 狙い	ねらい	nerai
 懐かしい	なつかしい	natsukashii
 一括	いっかつ	ikkatsu
@@ -60,7 +60,7 @@
 搭載	とうさい	tousai
 生涯	しょうがい	shougai
 廃棄	はいき	haiki
-堪能	かんのう|たんのう	kannnou|tannnou
+堪能	たんのう|かんのう	tannnou|kannnou
 匂い	におい	nioi
 訴訟	そしょう	soshou
 披露	ひろう	hirou
@@ -182,7 +182,7 @@
 懐かし	なつかし	natsukashi
 帰還	きかん	kikann
 不倫	ふりん	furinn
-玩具	おもちゃ|がんぐ	omotya|ganngu
+玩具	がんぐ|おもちゃ	ganngu|omotya
 網羅	もうら	moura
 三昧	さんまい|ざんまい	sannmai|zannmai
 憂鬱	ゆううつ	yuuutsu
@@ -213,9 +213,9 @@
 下痢	げり	geri
 肖像	しょうぞう|ちょさん	shouzou|tyosann
 秩序	ちつじょ	chitsujo
-消耗	しょうこう|しょうもう	shoukou|shoumou
+消耗	しょうもう|しょうこう	shoumou|shoukou
 妊婦	にんぷ	ninnpu
-潰れ	つぶれ|つぶせれ	tsubure|tsubusere
+潰れ	つぶれ	tsubure
 欠陥	けっかん	kekkann
 美肌	びはだ	bihada
 蛍光	けいこう	keikou
@@ -240,7 +240,7 @@
 渓流	けいりゅう	keiryuu
 触媒	しょくばい	shokubai
 中核	ちゅうかく	tyuukaku
-貼付	ちょうふ|てんぷ|はりつけ	tyoufu|tennpu|haritsuke
+貼付	ちょうふ|てんぷ	tyoufu|tennpu
 懲役	ちょうえき	tyoueki
 且つ	かつ	katsu
 妥協	だきょう	dakyou
@@ -268,7 +268,7 @@
 浴槽	よくそう	yokusou
 償却	しょうきゃく	shoukyaku
 顕著	けんちょ	kenntyo
-腫れ	はれ|ばれ	hare|bare
+腫れ	はれ	hare
 嫌がらせ	いやがらせ	iyagarase
 培養	ばいよう	baiyou
 暗闇	くらやみ	kurayami
@@ -309,7 +309,7 @@
 嫌悪	けんお	kenno
 摩擦	まさつ	masatsu
 主宰	しゅさい	shusai
-川柳	かわやなぎ|せんりゅう	kawayanagi|sennryuu
+川柳	せんりゅう|かわやなぎ	sennryuu|kawayanagi
 刃物	はもの	hamono
 痴漢	ちかん	chikann
 懲戒	ちょうかい	tyoukai
@@ -337,7 +337,7 @@
 見頃	みごろ	migoro
 抗菌	こうきん	koukinn
 挑発	ちょうはつ	tyouhatsu
-拭い	ぬぐい|ふい|ぶい	nugui|fui|bui
+拭い	ふい|ぬぐい	fui|nugui
 捉える	とらえる|つらまえる	toraeru|tsuramaeru
 葛藤	かっとう|つづらふじ	kattou|tsudurafuji
 購買	こうばい	koubai
@@ -399,7 +399,7 @@
 陥る	おちいる	ochiiru
 片岡	かたおか	kataoka
 語彙	ごい	goi
-統括	とうかつ|すべくく	toukatsu|subekuku
+統括	とうかつ	toukatsu
 傘下	さんか	sannka
 仙人	せんにん	sennninn
 変貌	へんぼう	hennbou
@@ -415,10 +415,10 @@
 堆積	たいせき	taiseki
 要塞	ようさい	yousai
 醜い	みにくい|みにきい	minikui|minikii
-拭き	ふき|ぶき	fuki|buki
+拭き	ふき	fuki
 発泡	はっぽう	happou
 偵察	ていさつ	teisatsu
-和尚	おしょう|わじょう|かしょう	oshou|wajou|kashou
+和尚	おしょう|かしょう|わじょう	oshou|kashou|wajou
 翻弄	ほんろう	honnrou
 適宜	てきぎ	tekigi
 核心	かくしん	kakushinn
@@ -474,9 +474,9 @@
 瑠璃	るり	ruri
 盆栽	ぼんさい	bonnsai
 官邸	かんてい	kanntei
-嫌気	いやき|いやけ|けんき	iyaki|iyake|kennki
+嫌気	いやけ|いやき|けんき	iyake|iyaki|kennki
 垣間見	かいまみ	kaimami
-乞食	こじき|ほいと|こつじき	kojiki|hoito|kotsujiki
+乞食	こじき|こつじき	kojiki|kotsujiki
 勃発	ぼっぱつ	boppatsu
 痕跡	こんせき	konnseki
 緻密	ちみつ	chimitsu
@@ -497,7 +497,7 @@
 威嚇	いかく	ikaku
 脇役	わきやく	wakiyaku
 真偽	しんぎ	shinngi
-麻布	まふ|あさぬの	mafu|asanuno
+麻布	あさぬの|まふ	asanuno|mafu
 特捜	とくそう	tokusou
 鳥肌	とりはだ	torihada
 忍耐	にんたい	ninntai
@@ -506,7 +506,7 @@
 爆睡	ばくすい	bakusui
 撲滅	ぼくめつ	bokumetsu
 無駄遣い	むだづかい	mudadukai
-鍛冶	かじ|たんや	kaji|tannya
+鍛冶	たんや|かじ	tannya|kaji
 空洞	くうどう	kuudou
 満塁	まんるい	mannrui
 頑丈	がんじょう	gannjou
@@ -555,7 +555,7 @@
 享受	きょうじゅ	kyouju
 生還	せいかん	seikann
 湧く	わく	waku
-長靴	ちょうか|ながぐつ	tyouka|nagagutsu
+長靴	ながぐつ|ちょうか	nagagutsu|tyouka
 偏り	かたより	katayori
 清涼	せいりょう	seiryou
 漆黒	しっこく	shikkoku
@@ -570,7 +570,7 @@
 来賓	らいひん	raihinn
 逸話	いつわ	itsuwa
 頒布	はんぷ	hannpu
-履く	はく|ばく	haku|baku
+履く	はく	haku
 裕福	ゆうふく	yuufuku
 進呈	しんてい	shinntei
 美貌	びぼう	bibou
@@ -601,8 +601,8 @@
 年俸	ねんぽう	nennpou
 堕落	だらく	daraku
 累積	るいせき	ruiseki
-挟む	さしはさむ|はさむ|ばさむ	sashihasamu|hasamu|basamu
-払拭	ふっしょく|ふっしき	fusshoku|fusshiki
+挟む	はさむ	hasamu
+払拭	ふっしょく	fusshoku
 財閥	ざいばつ	zaibatsu
 露呈	ろてい	rotei
 臆病	おくびょう	okubyou
@@ -638,7 +638,7 @@
 蹴る	ける	keru
 数珠	じゅず|ずず	juzu|zuzu
 余剰	よじょう	yojou
-肌寒い	はださむい|はだざむい|はだざみい|はださみい	hadasamui|hadazamui|hadazamii|hadasamii
+肌寒い	はだざむい|はださむい|はだざみい|はださみい	hadazamui|hadasamui|hadazamii|hadasamii
 扶助	ふじょ	fujo
 偏向	へんこう	hennkou
 銃弾	じゅうだん	juudann
@@ -658,9 +658,9 @@
 肌荒れ	はだあれ	hadaare
 王妃	おうひ	ouhi
 顕彰	けんしょう	kennshou
-大蛇	おろち|だいじゃ	orochi|daija
+大蛇	だいじゃ|おろち	daija|orochi
 謄本	とうほん	touhonn
-歯茎	はぐき|しけい	haguki|shikei
+歯茎	しけい|はぐき	shikei|haguki
 気泡	きほう	kihou
 尚更	なおさら	naosara
 伯父	おじ|はくふ	oji|hakufu
@@ -672,16 +672,16 @@
 安泰	あんたい	anntai
 痩身	そうしん	soushinn
 体臭	たいしゅう	taishuu
-憤り	いきどおり|むずかり|むつかり	ikidoori|muzukari|mutsukari
+憤り	いきどおり	ikidoori
 采配	さいはい	saihai
 奪還	だっかん	dakkann
-花瓶	かびん|はながめ	kabinn|hanagame
+花瓶	かびん	kabinn
 納涼	のうりょう	nouryou
 煎茶	せんちゃ	senntya
 珠玉	しゅぎょく	shugyoku
 充てる	あてる	ateru
 閑散	かんさん	kannsann
-挟み	さしはさみ|はさみ|ばさみ	sashihasami|hasami|basami
+挟み	はさみ|ばさみ	hasami|basami
 直轄	ちょっかつ	tyokkatsu
 偽者	にせもの	nisemono
 友禅	ゆうぜん	yuuzenn
@@ -728,8 +728,8 @@
 書棚	しょだな	shodana
 枯渇	こかつ	kokatsu
 覇者	はしゃ	hasha
-乞う	こう|ごう	kou|gou
-拭く	ふく|ぶく	fuku|buku
+乞う	こう	kou
+拭く	ふく	fuku
 擬人	ぎじん	gijinn
 雪渓	せっけい	sekkei
 空き缶	あきかん	akikann
@@ -758,7 +758,7 @@
 画伯	がはく	gahaku
 督促	とくそく	tokusoku
 竜巻	たつまき	tatsumaki
-貪欲	どんよく|とんよく	donnyoku|tonnyoku
+貪欲	とんよく|どんよく	tonnyoku|donnyoku
 醸成	じょうせい	jousei
 四肢	しし	shishi
 出稼ぎ	でかせぎ	dekasegi
@@ -771,8 +771,8 @@
 据え置き	すえおき	sueoki
 駄文	だぶん	dabunn
 懇願	こんがん	konngann
-凸凹	おうとつ|でこぼこ	outotsu|dekoboko
-凹み	へこみ|くぼみ	hekomi|kubomi
+凸凹	でこぼこ	dekoboko
+凹み	へこみ	hekomi
 産廃	さんぱい	sannpai
 蛇足	だそく	dasoku
 賭ける	かける|がける	kakeru|gakeru
@@ -835,7 +835,7 @@
 憤慨	ふんがい	funngai
 公爵	こうしゃく	koushaku
 寛大	かんだい	kanndai
-褒める	ほめる|ぼめる	homeru|bomeru
+褒める	ほめる	homeru
 甚大	じんだい	jinndai
 打撲	だぼく	daboku
 甲殻	こうかく	koukaku
@@ -867,7 +867,7 @@
 厄除け	やくよけ	yakuyoke
 謹慎	きんしん	kinnshinn
 括り	くくり	kukuri
-拒ん	こばん|こばめん|ことわん	kobann|kobamenn|kotowann
+拒ん	こばん|ことわん	kobann|kotowann
 護摩	ごま	goma
 郷愁	きょうしゅう	kyoushuu
 法曹	ほうそう	housou
@@ -880,7 +880,7 @@
 塩釜	しおがま	shiogama
 唄う	うたう|うとう	utau|utou
 拒む	こばむ	kobamu
-泡立て	あわだて|あわたて	awadate|awatate
+泡立て	あわたて|あわだて	awatate|awadate
 鬱病	うつびょう	utsubyou
 崖っぷち	がけっぷち	gakeppuchi
 妖艶	ようえん	youenn
@@ -894,7 +894,7 @@
 廃盤	はいばん	haibann
 咽頭	いんとう	inntou
 巣窟	そうくつ	soukutsu
-苛め	さいなめ|いじめ	sainame|ijime
+苛め	いじめ|さいなめ	ijime|sainame
 罵声	ばせい	basei
 伯母	おば|はくぼ	oba|hakubo
 釣り船	つりぶね	tsuribune
@@ -904,7 +904,7 @@
 腰椎	ようつい	youtsui
 杉原	すぎはら|すぎわら	sugihara|sugiwara
 送還	そうかん	soukann
-湧出	ゆうしゅつ|わきで	yuushutsu|wakide
+湧出	わきで|ゆうしゅつ	wakide|yuushutsu
 急騰	きゅうとう	kyuutou
 沙羅	さら|しゃら	sara|shara
 怨霊	おんりょう	onnryou
@@ -930,7 +930,7 @@
 頭巾	ずきん|ときん	zukinn|tokinn
 宣誓	せんせい	sennsei
 鹿角	ろっかく	rokkaku
-浮腫	ふしゅ|むくみ	fushu|mukumi
+浮腫	ふしゅ	fushu
 強壮	きょうそう	kyousou
 留袖	とめそで	tomesode
 磨耗	まもう	mamou
@@ -993,7 +993,7 @@
 免疫力	めんえきりょく	mennekiryoku
 蛍光灯	けいこうとう	keikoutou
 甲状腺	こうじょうせん	koujousenn
-湧水	わきみず|ゆうすい	wakimizu|yuusui
+湧水	ゆうすい	yuusui
 風呂場	ふろば	furoba
 大吟醸	だいぎんじょう	daiginnjou
 股関節	こかんせつ	kokannsetsu
