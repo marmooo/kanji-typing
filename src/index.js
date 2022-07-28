@@ -667,6 +667,7 @@ function countdown() {
   document.getElementById("guideSwitch").disabled = true;
   document.getElementById("virtualKeyboard").disabled = true;
   gamePanel.classList.add("d-none");
+  infoPanel.classList.add("d-none");
   countPanel.classList.remove("d-none");
   counter.textContent = 3;
   const timer = setInterval(() => {
@@ -683,8 +684,6 @@ function countdown() {
       gamePanel.classList.remove("d-none");
       countPanel.classList.add("d-none");
       infoPanel.classList.remove("d-none");
-      playPanel.classList.remove("d-none");
-      aaOuter.classList.remove("d-none");
       scorePanel.classList.add("d-none");
       typable();
       startTypeTimer();
@@ -734,8 +733,7 @@ gradeOption.addEventListener("change", () => {
 function scoring() {
   playing = false;
   infoPanel.classList.remove("d-none");
-  playPanel.classList.add("d-none");
-  aaOuter.classList.add("d-none");
+  gamePanel.classList.add("d-none");
   countPanel.classList.add("d-none");
   scorePanel.classList.remove("d-none");
   const grade = gradeOption.options[gradeOption.selectedIndex].value;
