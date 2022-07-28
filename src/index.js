@@ -13,6 +13,7 @@ const tmpCanvas = document.createElement("canvas");
 const mode = document.getElementById("mode");
 const gameTime = 120;
 let playing;
+let countdowning;
 let typeTimer;
 // https://dova-s.jp/bgm/play1754.html
 const bgm = new Audio("mp3/bgm.mp3");
@@ -653,8 +654,8 @@ function typable() {
 }
 
 function countdown() {
-  if (playing) return;
-  playing = true;
+  if (countdowning) return;
+  countdowning = true;
   typeIndex =
     normalCount =
     errorCount =
@@ -674,6 +675,8 @@ function countdown() {
       counter.style.backgroundColor = colors[t];
       counter.textContent = t;
     } else {
+      countdowning = false;
+      playing = true;
       clearInterval(timer);
       document.getElementById("guideSwitch").disabled = false;
       document.getElementById("virtualKeyboard").disabled = false;
