@@ -684,6 +684,12 @@ function countdown() {
       countPanel.classList.add("d-none");
       infoPanel.classList.remove("d-none");
       scorePanel.classList.add("d-none");
+      resizeFontSize(aa);
+      window.scrollTo({
+        top: document.getElementById("gamePanel").getBoundingClientRect().top +
+          document.documentElement.scrollTop - 320,
+        behavior: "auto",
+      });
       typable();
       startTypeTimer();
       if (localStorage.getItem("bgm") == 1) {
