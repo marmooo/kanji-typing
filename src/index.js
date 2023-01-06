@@ -3,7 +3,6 @@ const gamePanel = document.getElementById("gamePanel");
 const infoPanel = document.getElementById("infoPanel");
 const countPanel = document.getElementById("countPanel");
 const scorePanel = document.getElementById("scorePanel");
-const aaOuter = document.getElementById("aaOuter");
 const startButton = document.getElementById("startButton");
 const romasNode = document.getElementById("roma");
 const japanese = document.getElementById("japanese");
@@ -686,8 +685,7 @@ function countdown() {
       scorePanel.classList.add("d-none");
       resizeFontSize(aa);
       window.scrollTo({
-        top: document.getElementById("gamePanel").getBoundingClientRect().top +
-          document.documentElement.scrollTop - 320,
+        top: document.getElementById("typePanel").getBoundingClientRect().top,
         behavior: "auto",
       });
       typable();
