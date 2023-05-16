@@ -79,7 +79,7 @@
 便利	べんり	bennri
 試験	しけん	shikenn
 記録	きろく	kiroku
-成長	せいちょう	seityou
+成長	せいちょう	seichou
 戦争	せんそう	sennsou
 当然	とうぜん	touzenn
 以内	いない	inai
@@ -278,7 +278,7 @@
 勇気	ゆうき	yuuki
 機種	きしゅ	kishu
 給料	きゅうりょう	kyuuryou
-連中	れんちゅう|れんじゅう	renntyuu|rennjuu
+連中	れんちゅう|れんじゅう	rennchuu|rennjuu
 未満	みまん	mimann
 対戦	たいせん	taisenn
 街道	かいどう	kaidou
@@ -346,10 +346,10 @@
 試み	こころみ	kokoromi
 世帯	しょたい|じょたい|せたい	shotai|jotai|setai
 特急	とっきゅう	tokkyuu
-議長	ぎちょう	gityou
+議長	ぎちょう	gichou
 お笑い	おわらい	owarai
 飲料	いんりょう|のみりょう	innryou|nomiryou
-課長	かちょう	katyou
+課長	かちょう	kachou
 年末	ねんまつ	nennmatsu
 給付	きゅうふ	kyuufu
 光景	こうけい	koukei
@@ -371,7 +371,7 @@
 達し	たっし	tasshi
 自覚	じかく	jikaku
 助成	じょせい	josei
-長官	ちょうかん	tyoukann
+長官	ちょうかん	choukann
 信者	しんじゃ	shinnja
 戦う	たたかう|たたこう	tatakau|tatakou
 観客	かんきゃく	kannkyaku
@@ -387,7 +387,7 @@
 不幸	ふこう	fukou
 持参	じさん	jisann
 天候	てんこう	tennkou
-順調	じゅんちょう	junntyou
+順調	じゅんちょう	junnchou
 外観	がいかん	gaikann
 理念	りねん	rinenn
 録画	ろくが	rokuga
@@ -420,7 +420,7 @@
 海軍	かいぐん	kaigunn
 参院	さんいん	sanninn
 大陸	たいりく	tairiku
-調達	ちょうたつ	tyoutatsu
+調達	ちょうたつ	choutatsu
 牧場	ぼくじょう|まきば	bokujou|makiba
 有利	ゆうり	yuuri
 特産	とくさん	tokusann
@@ -438,7 +438,7 @@
 初代	しょだい	shodai
 気候	きこう	kikou
 選定	せんてい	senntei
-最中	もなか|さいちゅう|さなか	monaka|saityuu|sanaka
+最中	もなか|さいちゅう|さなか	monaka|saichuu|sanaka
 飛び	とび	tobi
 日付	ひづけ	hiduke
 水産	すいさん	suisann
@@ -461,7 +461,7 @@
 借りる	かりる	kariru
 血管	けっかん	kekkann
 参戦	さんせん	sannsenn
-調節	ちょうせつ	tyousetsu
+調節	ちょうせつ	chousetsu
 共感	きょうかん	kyoukann
 貨物	かもつ|かぶつ	kamotsu|kabutsu
 要する	ようする	yousuru
@@ -471,7 +471,7 @@
 数量	すうりょう	suuryou
 果て	はて	hate
 指標	しひょう	shihyou
-隊長	たいちょう	taityou
+隊長	たいちょう	taichou
 小児	しょうに	shouni
 客観	きゃっかん|かっかん	kyakkann|kakkann
 結合	けつごう	ketsugou
@@ -561,12 +561,12 @@
 欠け	かけ	kake
 不法	ふほう	fuhou
 戦車	せんしゃ	sennsha
-包丁	ほうちょう|ぼうちょう	houtyou|boutyou
+包丁	ほうちょう|ぼうちょう	houchou|bouchou
 連発	れんぱつ	rennpatsu
 北側	きたがわ	kitagawa
 各自	かくじ	kakuji
 果たす	はたす	hatasu
-好調	こうちょう	koutyou
+好調	こうちょう	kouchou
 人種	じんしゅ	jinnshu
 味付け	あじつけ	ajitsuke
 司令	しれい	shirei
@@ -588,7 +588,7 @@
 失う	うしなう|うしのう|のう	ushinau|ushinou|nou
 連日	れんじつ	rennjitsu
 省エネ	しょうえね	shouene
-特長	とくちょう	tokutyou
+特長	とくちょう	tokuchou
 改め	あらため	aratame
 軍隊	ぐんたい	gunntai
 参画	さんかく	sannkaku
@@ -602,7 +602,7 @@
 便り	たより|だより	tayori|dayori
 子孫	しそん	shisonn
 失点	しってん	shittenn
-直径	ちょっけい	tyokkei
+直径	ちょっけい	chokkei
 改札	かいさつ	kaisatsu
 祝福	しゅくふく	shukufuku
 所要	しょよう	shoyou
@@ -669,7 +669,7 @@
 東側	ひがしがわ	higashigawa
 半径	はんけい	hannkei
 敗北	はいぼく	haiboku
-不調	ふちょう|ぶちょう	futyou|butyou
+不調	ふちょう|ぶちょう	fuchou|buchou
 競売	きょうばい|けいばい|せりうり	kyoubai|keibai|seriuri
 置き場	おきば	okiba
 発熱	はつねつ	hatsunetsu
@@ -692,10 +692,10 @@
 議決	ぎけつ	giketsu
 車種	しゃしゅ	shashu
 決戦	けっせん	kessenn
-付着	ふちゃく	futyaku
+付着	ふちゃく	fuchaku
 夕飯	ゆうはん|ゆうめし	yuuhann|yuumeshi
 帯び	おび	obi
-熱中	ねっちゅう	nettyuu
+熱中	ねっちゅう	necchuu
 山菜	さんさい	sannsai
 一帯	いったい	ittai
 連帯	れんたい	renntai
@@ -726,7 +726,7 @@
 成形	せいけい	seikei
 残高	ざんだか	zanndaka
 念願	ねんがん	nenngann
-直結	ちょっけつ	tyokketsu
+直結	ちょっけつ	chokketsu
 点灯	てんとう	tenntou
 種目	しゅもく	shumoku
 成る	なる	naru
@@ -755,7 +755,7 @@
 希少	きしょう	kishou
 戦時	せんじ	sennji
 配管	はいかん	haikann
-町民	ちょうみん	tyouminn
+町民	ちょうみん	chouminn
 菜の花	なのはな	nanohana
 願望	がんぼう	gannbou
 法定	ほうてい	houtei
@@ -786,7 +786,7 @@
 挙式	きょしき	kyoshiki
 相関	そうかん	soukann
 実戦	じっせん	jissenn
-飛鳥	ひちょう	hityou
+飛鳥	ひちょう	hichou
 何卒	なにとぞ	nanitozo
 名産	めいさん	meisann
 冬季	とうき	touki
@@ -809,7 +809,7 @@
 照会	しょうかい	shoukai
 矢印	やじるし	yajirushi
 菜園	さいえん	saienn
-無茶	むちゃ	mutya
+無茶	むちゃ	mucha
 公約	こうやく	kouyaku
 積雪	せきせつ	sekisetsu
 考案	こうあん	kouann
@@ -817,7 +817,7 @@
 区民	くみん	kuminn
 消失	しょうしつ	shoushitsu
 養子	ようし	youshi
-最長	さいちょう	saityou
+最長	さいちょう	saichou
 一挙	いっきょ	ikkyo
 街頭	がいとう	gaitou
 利息	りそく	risoku
@@ -827,7 +827,7 @@
 音量	おんりょう	onnryou
 指令	しれい	shirei
 老化	ろうか	rouka
-協調	きょうちょう	kyoutyou
+協調	きょうちょう	kyouchou
 景品	けいひん	keihinn
 司馬	しば	shiba
 梅酒	うめしゅ	umeshu
@@ -857,7 +857,7 @@
 試練	しれん	shirenn
 極め	きわめ|きめ|ぎめ	kiwame|kime|gime
 戦線	せんせん	sennsenn
-害虫	がいちゅう	gaityuu
+害虫	がいちゅう	gaichuu
 満席	まんせき	mannseki
 付録	ふろく	furoku
 海辺	うみべ|かいへん	umibe|kaihenn
@@ -878,7 +878,7 @@
 夕焼け	ゆうやけ	yuuyake
 合法	ごうほう	gouhou
 月給	げっきゅう	gekkyuu
-的中	てきちゅう	tekityuu
+的中	てきちゅう	tekichuu
 漁船	ぎょせん	gyosenn
 別館	べっかん	bekkann
 標的	ひょうてき	hyouteki
@@ -889,8 +889,8 @@
 競走	きょうそう	kyousou
 不意	ふい	fui
 園児	えんじ	ennji
-着陸	ちゃくりく	tyakuriku
-産直	さんちょく	sanntyoku
+着陸	ちゃくりく	chakuriku
+産直	さんちょく	sannchoku
 改名	かいめい	kaimei
 戦死	せんし	sennshi
 働きかけ	はたらきかけ	hatarakikake
@@ -917,7 +917,7 @@
 事案	じあん	jiann
 方位	ほうい	houi
 器用	きよう|ぎよう	kiyou|giyou
-愛着	あいちゃく|あいじゃく	aityaku|aijaku
+愛着	あいちゃく|あいじゃく	aichaku|aijaku
 好ましい	このましい	konomashii
 作法	さほう|さくほう	sahou|sakuhou
 特約	とくやく	tokuyaku
@@ -934,7 +934,7 @@
 電機	でんき	dennki
 連打	れんだ	rennda
 静止	せいし	seishi
-着信	ちゃくしん	tyakushinn
+着信	ちゃくしん	chakushinn
 所管	しょかん	shokann
 熱意	ねつい	netsui
 必勝	ひっしょう	hisshou
@@ -957,7 +957,7 @@
 石材	せきざい	sekizai
 散らし	ちらし	chirashi
 低音	ていおん	teionn
-昼飯	ひるめし|ちゅうはん	hirumeshi|tyuuhann
+昼飯	ひるめし|ちゅうはん	hirumeshi|chuuhann
 祝う	いわう|いおう	iwau|iou
 照れ	てれ	tere
 給湯	きゅうとう	kyuutou
@@ -991,7 +991,7 @@
 思案	しあん|じあん	shiann|jiann
 伝票	でんぴょう	dennpyou
 城主	じょうしゅ	joushu
-失調	しっちょう	shittyou
+失調	しっちょう	shicchou
 光栄	こうえい	kouei
 固体	こたい	kotai
 教徒	きょうと	kyouto
@@ -1121,7 +1121,7 @@
 愛国	あいこく	aikoku
 産む	うむ	umu
 一変	いっぺん	ippenn
-長老	ちょうろう	tyourou
+長老	ちょうろう	chourou
 後続	こうぞく	kouzoku
 周遊	しゅうゆう	shuuyuu
 借家	しゃくや|しゃっか	shakuya|shakka
@@ -1212,7 +1212,7 @@
 有望	ゆうぼう	yuubou
 連戦	れんせん	rennsenn
 発令	はつれい	hatsurei
-調印	ちょういん	tyouinn
+調印	ちょういん	chouinn
 用例	ようれい	yourei
 愛す	あいす	aisu
 治験	ちけん	chikenn
@@ -1226,7 +1226,7 @@
 極度	きょくど	kyokudo
 愛しい	いとしい	itoshii
 欠く	かく	kaku
-無茶苦茶	むちゃくちゃ	mutyakutya
+無茶苦茶	むちゃくちゃ	muchakucha
 植え付け	うえつけ	uetsuke
 悲観	ひかん	hikann
 法学	ほうがく	hougaku
@@ -1252,9 +1252,9 @@
 時差	じさ	jisa
 村民	そんみん	sonnminn
 願書	がんしょ	gannsho
-鳥類	ちょうるい	tyourui
+鳥類	ちょうるい	chourui
 求む	もとむ	motomu
-単調	たんちょう	tanntyou
+単調	たんちょう	tannchou
 成し	なし	nashi
 不毛	ふもう	fumou
 月例	げつれい	getsurei
@@ -1295,7 +1295,7 @@
 所以	ゆえん	yuenn
 極まりない	きわまりない	kiwamarinai
 うろ覚え	うろおぼえ	urooboe
-特注	とくちゅう	tokutyuu
+特注	とくちゅう	tokuchuu
 見栄え	みばえ	mibae
 言い伝え	いいつたえ	iitsutae
 差す	さす	sasu
@@ -1313,7 +1313,7 @@
 建前	たてまえ	tatemae
 物置	ものおき	monooki
 内戦	ないせん	naisenn
-試着	しちゃく	shityaku
+試着	しちゃく	shichaku
 残雪	ざんせつ	zannsetsu
 単元	たんげん	tanngenn
 城下	じょうか	jouka
@@ -1379,7 +1379,7 @@
 石器	せっき	sekki
 月別	つきべつ	tsukibetsu
 類する	るいする	ruisuru
-兆候	ちょうこう	tyoukou
+兆候	ちょうこう	choukou
 清め	きよめ|すめ	kiyome|sume
 牧草	ぼくそう	bokusou
 試用	しよう	shiyou
@@ -1398,12 +1398,12 @@
 好転	こうてん	koutenn
 未練	みれん	mirenn
 照り	てり|でり	teri|deri
-前兆	ぜんちょう	zenntyou
+前兆	ぜんちょう	zennchou
 加味	かみ	kami
 芸者	げいしゃ	geisha
 府内	ふない	funai
 集成	しゅうせい	shuusei
-成虫	せいちゅう	seityuu
+成虫	せいちゅう	seichuu
 表札	ひょうさつ	hyousatsu
 材木	ざいもく	zaimoku
 漁村	ぎょそん	gyosonn
@@ -1422,7 +1422,7 @@
 熱唱	ねっしょう	nesshou
 無色	むしょく	mushoku
 送別	そうべつ	soubetsu
-変調	へんちょう	henntyou
+変調	へんちょう	hennchou
 害する	がいする	gaisuru
 無実	むじつ	mujitsu
 泣かせ	なかせ	nakase
@@ -1461,7 +1461,7 @@
 血清	けっせい	kessei
 どん底	どんぞこ	donnzoko
 千種	ちぐさ	chigusa
-戦中	せんちゅう	senntyuu
+戦中	せんちゅう	sennchuu
 量的	りょうてき	ryouteki
 無残	むざん	muzann
 各課	かくか	kakuka
@@ -1489,7 +1489,7 @@
 熱愛	ねつあい	netsuai
 法科	ほうか	houka
 特売	とくばい	tokubai
-中隊	ちゅうたい	tyuutai
+中隊	ちゅうたい	chuutai
 不定	ふてい	futei
 塩田	えんでん	enndenn
 画材	がざい	gazai
@@ -1579,7 +1579,7 @@
 底面	ていめん	teimenn
 要所	ようしょ	yousho
 松林	まつばやし	matsubayashi
-着席	ちゃくせき	tyakuseki
+着席	ちゃくせき	chakuseki
 不変	ふへん	fuhenn
 列伝	れつでん	retsudenn
 米倉	こめぐら	komegura
@@ -1663,7 +1663,7 @@
 人選	じんせん	jinnsenn
 特命	とくめい	tokumei
 要人	ようじん	youjinn
-帳票	ちょうひょう	tyouhyou
+帳票	ちょうひょう	chouhyou
 病的	びょうてき	byouteki
 答案	とうあん	touann
 八景	はっけい	hakkei
@@ -1697,7 +1697,7 @@
 失言	しつげん	shitsugenn
 城北	じょうほく	jouhoku
 課外	かがい	kagai
-中卒	ちゅうそつ	tyuusotsu
+中卒	ちゅうそつ	chuusotsu
 標記	ひょうき	hyouki
 敗れる	やぶれる	yabureru
 競り	せり|ぜり	seri|zeri
@@ -1706,7 +1706,7 @@
 司教	しきょう	shikyou
 別所	べっしょ	bessho
 社協	しゃきょう	shakyou
-病害虫	びょうがいちゅう	byougaityuu
+病害虫	びょうがいちゅう	byougaichuu
 本戦	ほんせん	honnsenn
 積み立て	つみたて	tsumitate
 富む	とむ	tomu
@@ -1735,7 +1735,7 @@
 地熱	じねつ|ちねつ	jinetsu|chinetsu
 高給	こうきゅう	koukyuu
 全席	ぜんせき	zennseki
-機長	きちょう	kityou
+機長	きちょう	kichou
 女官	にょかん|じょかん	nyokann|jokann
 岩塩	がんえん	gannenn
 笑い話	わらいばなし	waraibanashi
@@ -1762,7 +1762,7 @@
 説話	せつわ	setsuwa
 大軍	たいぐん	taigunn
 軍配	ぐんばい	gunnbai
-茶器	ちゃき	tyaki
+茶器	ちゃき	chaki
 府県	ふけん	fukenn
 先達	せんだつ	senndatsu
 軍手	ぐんて	gunnte
@@ -1787,7 +1787,7 @@
 初耳	はつみみ	hatsumimi
 共学	きょうがく	kyougaku
 美的	びてき	biteki
-長城	ちょうじょう	tyoujou
+長城	ちょうじょう	choujou
 副題	ふくだい	fukudai
 関係者	かんけいしゃ	kannkeisha
 具体的	ぐたいてき	gutaiteki
@@ -1832,7 +1832,7 @@
 小児科	しょうにか	shounika
 観光地	かんこうち	kannkouchi
 科学的	かがくてき	kagakuteki
-受付中	うけつけちゅう	uketsuketyuu
+受付中	うけつけちゅう	uketsukechuu
 参議院	さんぎいん	sanngiinn
 結果的	けっかてき	kekkateki
 満足度	まんぞくど	mannzokudo
@@ -1843,7 +1843,7 @@
 目的地	もくてきち	mokutekichi
 公民館	こうみんかん	kouminnkann
 客観的	きゃっかんてき	kyakkannteki
-調味料	ちょうみりょう	tyoumiryou
+調味料	ちょうみりょう	choumiryou
 特化	とっか	tokka
 原材料	げんざいりょう	gennzairyou
 海水浴	かいすいよく	kaisuiyoku
@@ -1890,7 +1890,7 @@
 生協	せいきょう	seikyou
 法改正	ほうかいせい	houkaisei
 未成年	みせいねん	miseinenn
-要注意	ようちゅうい	youtyuui
+要注意	ようちゅうい	youchuui
 物理的	ぶつりてき	butsuriteki
 画期的	かっきてき	kakkiteki
 機関車	きかんしゃ	kikannsha
@@ -1909,11 +1909,11 @@
 共同体	きょうどうたい	kyoudoutai
 放課後	ほうかご	houkago
 無農薬	むのうやく	munouyaku
-長期的	ちょうきてき	tyoukiteki
+長期的	ちょうきてき	choukiteki
 歯周病	ししゅうびょう	shishuubyou
 主観的	しゅかんてき	shukannteki
 消化器	しょうかき	shoukaki
-副会長	ふくかいちょう	fukukaityou
+副会長	ふくかいちょう	fukukaichou
 文化的	ぶんかてき	bunnkateki
 加害者	かがいしゃ	kagaisha
 給付金	きゅうふきん	kyuufukinn
@@ -1983,7 +1983,7 @@
 感動的	かんどうてき	kanndouteki
 住民票	じゅうみんひょう	juuminnhyou
 先週末	せんしゅうまつ	sennshuumatsu
-配信中	はいしんちゅう	haishinntyuu
+配信中	はいしんちゅう	haishinnchuu
 印刷用	いんさつよう	innsatsuyou
 低学年	ていがくねん	teigakunenn
 昨年末	さくねんまつ	sakunennmatsu
@@ -2035,7 +2035,7 @@
 先住民	せんじゅうみん	sennjuuminn
 差別化	さべつか	sabetsuka
 国民的	こくみんてき	kokuminnteki
-料理長	りょうりちょう	ryourityou
+料理長	りょうりちょう	ryourichou
 議定書	ぎていしょ	giteisho
 無差別	むさべつ	musabetsu
 大好物	だいこうぶつ	daikoubutsu
@@ -2055,8 +2055,8 @@
 家庭的	かていてき	kateiteki
 不必要	ふひつよう	fuhitsuyou
 主成分	しゅせいぶん	shuseibunn
-先着順	せんちゃくじゅん	senntyakujunn
-朝食付	ちょうしょくつき	tyoushokutsuki
+先着順	せんちゃくじゅん	sennchakujunn
+朝食付	ちょうしょくつき	choushokutsuki
 未入力	みにゅうりょく	minyuuryoku
 海産物	かいさんぶつ	kaisannbutsu
 身体的	しんたいてき	shinntaiteki
@@ -2064,7 +2064,7 @@
 軽量化	けいりょうか	keiryouka
 同好会	どうこうかい	doukoukai
 対照表	たいしょうひょう	taishouhyou
-戦時中	せんじちゅう	sennjityuu
+戦時中	せんじちゅう	sennjichuu
 愛国心	あいこくしん	aikokushinn
 最大手	さいおおて	saioote
 一戸建	いっこだて	ikkodate
@@ -2072,12 +2072,12 @@
 不特定	ふとくてい	futokutei
 民主化	みんしゅか	minnshuka
 開放的	かいほうてき	kaihouteki
-副社長	ふくしゃちょう	fukushatyou
+副社長	ふくしゃちょう	fukushachou
 化学的	かがくてき	kagakuteki
 未登録	みとうろく	mitouroku
 地理的	ちりてき	chiriteki
 試験場	しけんじょう	shikennjou
-中国産	ちゅうごくさん	tyuugokusann
+中国産	ちゅうごくさん	chuugokusann
 具材	ぐざい	guzai
 人工的	じんこうてき	jinnkouteki
 安定的	あんていてき	annteiteki
@@ -2099,7 +2099,7 @@
 自治区	じちく	jichiku
 自治法	じちほう	jichihou
 生理的	せいりてき	seiriteki
-試合中	しあいちゅう	shiaityuu
+試合中	しあいちゅう	shiaichuu
 産業界	さんぎょうかい	sanngyoukai
 要望書	ようぼうしょ	youbousho
 社労	しゃろう	sharou
@@ -2110,7 +2110,7 @@
 完食	かんしょく	kannshoku
 受験者	じゅけんしゃ	jukennsha
 軍事的	ぐんじてき	gunnjiteki
-市長選	しちょうせん	shityousenn
+市長選	しちょうせん	shichousenn
 古典的	こてんてき	kotennteki
 雪景色	ゆきげしき	yukigeshiki
 重点的	じゅうてんてき	juutennteki
@@ -2126,7 +2126,7 @@
 初年度	しょねんど	shonenndo
 数種類	すうしゅるい	suushurui
 今月末	こんげつまつ	konngetsumatsu
-集中的	しゅうちゅうてき	shuutyuuteki
+集中的	しゅうちゅうてき	shuuchuuteki
 土産物	みやげもの	miyagemono
 初勝利	はつしょうり	hatsushouri
 実体験	じったいけん|じつたいけん	jittaikenn|jitsutaikenn
@@ -2143,7 +2143,7 @@
 季節感	きせつかん	kisetsukann
 初見	しょけん	shokenn
 外交官	がいこうかん	gaikoukann
-直感的	ちょっかんてき	tyokkannteki
+直感的	ちょっかんてき	chokkannteki
 有機物	ゆうきぶつ	yuukibutsu
 交流戦	こうりゅうせん	kouryuusenn
 各県	かくけん|かっけん	kakukenn|kakkenn
@@ -2202,13 +2202,13 @@
 海側	うみがわ	umigawa
 平和的	へいわてき	heiwateki
 地下街	ちかがい	chikagai
-中心街	ちゅうしんがい	tyuushinngai
+中心街	ちゅうしんがい	chuushinngai
 通話料	つうわりょう	tsuuwaryou
 体力的	たいりょくてき	tairyokuteki
 百景	ひゃっけい	hyakkei
 衣料品	いりょうひん	iryouhinn
 業種別	ぎょうしゅべつ	gyoushubetsu
-副議長	ふくぎちょう	fukugityou
+副議長	ふくぎちょう	fukugichou
 歌合戦	うたがっせん	utagassenn
 茶飯事	さはんじ	sahannji
 例外的	れいがいてき	reigaiteki
@@ -2222,13 +2222,13 @@
 道徳的	どうとくてき	doutokuteki
 消火器	しょうかき	shoukaki
 機関紙	きかんし	kikannshi
-着色料	ちゃくしょくりょう	tyakushokuryou
+着色料	ちゃくしょくりょう	chakushokuryou
 合法的	ごうほうてき	gouhouteki
 試作品	しさくひん	shisakuhinn
 億万	おくまん	okumann
 通信社	つうしんしゃ	tsuushinnsha
 最終章	さいしゅうしょう	saishuushou
-町議会	ちょうぎかい	tyougikai
+町議会	ちょうぎかい	chougikai
 薬事法	やくじほう	yakujihou
 天然水	てんねんすい	tennnennsui
 人道的	じんどうてき	jinndouteki
@@ -2260,7 +2260,7 @@
 管理下	かんりか	kannrika
 選挙法	せんきょほう	sennkyohou
 後輪	こうりん	kourinn
-不注意	ふちゅうい	futyuui
+不注意	ふちゅうい	fuchuui
 地元産	じもとさん	jimotosann
 月例会	げつれいかい	getsureikai
 民芸品	みんげいひん	minngeihinn

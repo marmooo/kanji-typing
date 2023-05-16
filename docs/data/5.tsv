@@ -14,7 +14,7 @@
 機能	きのう	kinou
 評価	ひょうか	hyouka
 基本	きほん	kihonn
-調査	ちょうさ	tyousa
+調査	ちょうさ	chousa
 価格	かかく	kakaku
 条件	じょうけん	joukenn
 設定	せってい	settei
@@ -69,7 +69,7 @@
 限定	げんてい	genntei
 消費	しょうひ	shouhi
 精神	せいしん	seishinn
-直接	ちょくせつ	tyokusetsu
+直接	ちょくせつ	chokusetsu
 実現	じつげん	jitsugenn
 興味	きょうみ	kyoumi
 事務	じむ	jimu
@@ -142,7 +142,7 @@
 素晴らしい	すばらしい	subarashii
 豊富	ほうふ	houfu
 再び	ふたたび	futatabi
-主張	しゅちょう	shutyou
+主張	しゅちょう	shuchou
 事情	じじょう	jijou
 教授	きょうじゅ	kyouju
 報道	ほうどう	houdou
@@ -165,7 +165,7 @@
 最適	さいてき	saiteki
 確実	かくじつ	kakujitsu
 増加	ぞうか	zouka
-停止	ていし|ちょうじ	teishi|tyouji
+停止	ていし|ちょうじ	teishi|chouji
 合格	ごうかく	goukaku
 性格	せいかく	seikaku
 復活	ふっかつ	fukkatsu
@@ -246,7 +246,7 @@
 機構	きこう	kikou
 財政	ざいせい	zaisei
 義務	ぎむ	gimu
-出張	しゅっちょう	shuttyou
+出張	しゅっちょう	shucchou
 指示	しじ	shiji
 性能	せいのう	seinou
 記述	きじゅつ	kijutsu
@@ -444,7 +444,7 @@
 職種	しょくしゅ	shokushu
 婦人	ふじん|ぷじん	fujinn|pujinn
 飼育	しいく	shiiku
-重複	じゅうふく|ちょうふく	juufuku|tyoufuku
+重複	じゅうふく|ちょうふく	juufuku|choufuku
 愛情	あいじょう	aijou
 財布	さいふ	saifu
 酸化	さんか	sannka
@@ -549,7 +549,7 @@
 不可欠	ふかけつ	fukaketsu
 再会	さいかい	saikai
 増やす	ふやす	fuyasu
-夢中	むちゅう	mutyuu
+夢中	むちゅう	muchuu
 貸切	かしきり	kashikiri
 出資	しゅっし	shusshi
 適応	てきおう	tekiou
@@ -566,7 +566,7 @@
 液体	えきたい	ekitai
 学歴	がくれき	gakureki
 典型	てんけい	tennkei
-貯金	ちょきん	tyokinn
+貯金	ちょきん	chokinn
 感性	かんせい	kannsei
 大賞	たいしょう	taishou
 限る	かぎる	kagiru
@@ -598,7 +598,7 @@
 仮面	かめん	kamenn
 横断	おうだん	oudann
 接近	せっきん	sekkinn
-中断	ちゅうだん	tyuudann
+中断	ちゅうだん	chuudann
 的確	てきかく|てっかく	tekikaku|tekkaku
 校舎	こうしゃ	kousha
 備考	びこう	bikou
@@ -629,7 +629,7 @@
 入賞	にゅうしょう	nyuushou
 任務	にんむ	ninnmu
 特価	とっか	tokka
-接着	せっちゃく	settyaku
+接着	せっちゃく	secchaku
 志望	しぼう	shibou
 月刊	げっかん	gekkann
 建造	けんぞう	kennzou
@@ -698,7 +698,7 @@
 友情	ゆうじょう	yuujou
 絶品	ぜっぴん	zeppinn
 労務	ろうむ	roumu
-中毒	ちゅうどく	tyuudoku
+中毒	ちゅうどく	chuudoku
 余地	よち	yochi
 根性	こんじょう	konnjou
 複写	ふくしゃ	fukusha
@@ -716,7 +716,7 @@
 特製	とくせい	tokusei
 代謝	たいしゃ	taisha
 絶景	ぜっけい	zekkei
-基調	きちょう	kityou
+基調	きちょう	kichou
 防水	ぼうすい	bousui
 木製	もくせい	mokusei
 移民	いみん	iminn
@@ -880,7 +880,7 @@
 価額	かがく	kagaku
 日報	にっぽう	nippou
 河原	かわら|がわら	kawara|gawara
-長編	ちょうへん	tyouhenn
+長編	ちょうへん	chouhenn
 支社	ししゃ	shisha
 織り	おり	ori
 夢見	ゆめみ	yumemi
@@ -894,7 +894,7 @@
 提唱	ていしょう	teishou
 在る	ある	aru
 防ぎ	ふせぎ	fusegi
-団長	だんちょう	danntyou
+団長	だんちょう	dannchou
 増強	ぞうきょう	zoukyou
 質感	しつかん	shitsukann
 事象	じしょう	jishou
@@ -962,7 +962,7 @@
 特技	とくぎ	tokugi
 法規	ほうき	houki
 悪夢	あくむ	akumu
-総長	そうちょう	soutyou
+総長	そうちょう	souchou
 同志	どうし	doushi
 鉱物	こうぶつ	koubutsu
 在来	ざいらい	zairai
@@ -985,7 +985,7 @@
 貸出	かしだし	kashidashi
 国防	こくぼう	kokubou
 素顔	すがお	sugao
-率直	そっちょく	sottyoku
+率直	そっちょく	socchoku
 義母	ぎぼ	gibo
 造成	ぞうせい	zousei
 知性	ちせい	chisei
@@ -1021,7 +1021,7 @@
 保温	ほおん	hoonn
 術後	じゅつご	jutsugo
 時価	じか	jika
-朝刊	ちょうかん	tyoukann
+朝刊	ちょうかん	choukann
 混入	こんにゅう	konnnyuu
 公営	こうえい	kouei
 接合	せつごう	setsugou
@@ -1062,7 +1062,7 @@
 配備	はいび	haibi
 祖国	そこく	sokoku
 公示	こうじ	kouji
-調停	ちょうてい	tyoutei
+調停	ちょうてい	choutei
 伝導	でんどう	denndou
 移す	うつす	utsusu
 応急	おうきゅう	oukyuu
@@ -1080,7 +1080,7 @@
 公団	こうだん	koudann
 織物	おりもの	orimono
 原型	げんけい	gennkei
-提灯	ちょうちん|ぢょうちん	tyouchinn|dyouchinn
+提灯	ちょうちん|ぢょうちん	chouchinn|dyouchinn
 体格	たいかく	taikaku
 人情	にんじょう	ninnjou
 精製	せいせい	seisei
@@ -1148,7 +1148,7 @@
 総勢	そうぜい	souzei
 大仏	だいぶつ	daibutsu
 演目	えんもく	ennmoku
-中略	ちゅうりゃく	tyuuryaku
+中略	ちゅうりゃく	chuuryaku
 師事	しじ	shiji
 寄る	よる	yoru
 極限	きょくげん	kyokugenn
@@ -1164,7 +1164,7 @@
 前衛	ぜんえい	zennei
 混同	こんどう	konndou
 県境	けんきょう|けんざかい	kennkyou|kennzakai
-中性	ちゅうせい	tyuusei
+中性	ちゅうせい	chuusei
 絶版	ぜっぱん	zeppann
 常務	じょうむ	joumu
 転居	てんきょ	tennkyo
@@ -1178,7 +1178,7 @@
 永住	えいじゅう	eijuu
 条文	じょうぶん	joubunn
 混在	こんざい	konnzai
-直営	ちょくえい	tyokuei
+直営	ちょくえい	chokuei
 修士	しゅうし	shuushi
 断り	ことわり	kotowari
 学費	がくひ	gakuhi
@@ -1206,7 +1206,7 @@
 応力	おうりょく	ouryoku
 氷河	ひょうが	hyouga
 暴動	ぼうどう	boudou
-中型	ちゅうがた	tyuugata
+中型	ちゅうがた	chuugata
 境地	きょうち	kyouchi
 引き寄せ	ひきよせ	hikiyose
 常設	じょうせつ	jousetsu
@@ -1277,7 +1277,7 @@
 寄席	よせ	yose
 気絶	きぜつ	kizetsu
 愛護	あいご	aigo
-支柱	しちゅう	shityuu
+支柱	しちゅう	shichuu
 受益	じゅえき	jueki
 政務	せいむ	seimu
 木綿	もめん|きわた|もくめん	momenn|kiwata|mokumenn
@@ -1322,7 +1322,7 @@
 現世	げんせ|げんせい	gennse|gennsei
 築城	ちくじょう	chikujou
 夢見る	ゆめみる	yumemiru
-殺虫	さっちゅう	sattyuu
+殺虫	さっちゅう	sacchuu
 先導	せんどう	senndou
 根幹	こんかん	konnkann
 後述	こうじゅつ	koujutsu
@@ -1398,7 +1398,7 @@
 検挙	けんきょ	kennkyo
 布告	ふこく	fukoku
 仏具	ぶつぐ	butsugu
-調製	ちょうせい	tyousei
+調製	ちょうせい	chousei
 快勝	かいしょう	kaishou
 居室	きょしつ	kyoshitsu
 職歴	しょくれき	shokureki
@@ -1474,10 +1474,10 @@
 適時	てきじ	tekiji
 非行	ひこう	hikou
 再興	さいこう	saikou
-中絶	ちゅうぜつ	tyuuzetsu
+中絶	ちゅうぜつ	chuuzetsu
 許せる	ゆるせる	yuruseru
 一堂	いちどう	ichidou
-快調	かいちょう	kaityou
+快調	かいちょう	kaichou
 確変	かくへん	kakuhenn
 油圧	ゆあつ	yuatsu
 手際	てぎわ	tegiwa
@@ -1536,7 +1536,7 @@
 増刊	ぞうかん	zoukann
 再三	さいさん	saisann
 適法	てきほう	tekihou
-備長	びんちょう	binntyou
+備長	びんちょう	binnchou
 辺境	へんきょう	hennkyou
 史観	しかん	shikann
 報い	むくい	mukui
@@ -1676,7 +1676,7 @@
 素性	すじょう|そせい	sujou|sosei
 復路	ふくろ	fukuro
 格付	かくづけ	kakuduke
-防虫	ぼうちゅう	boutyuu
+防虫	ぼうちゅう	bouchuu
 製材	せいざい	seizai
 広義	こうぎ	kougi
 首領	しゅりょう	shuryou
@@ -1688,7 +1688,7 @@
 任用	にんよう	ninnyou
 領有	りょうゆう	ryouyuu
 好適	こうてき	kouteki
-貯水	ちょすい	tyosui
+貯水	ちょすい	chosui
 製図	せいず	seizu
 改編	かいへん	kaihenn
 体液	たいえき	taieki
@@ -1697,7 +1697,7 @@
 定規	じょうぎ	jougi
 球技	きゅうぎ	kyuugi
 形質	けいしつ	keishitsu
-町営	ちょうえい	tyouei
+町営	ちょうえい	chouei
 船団	せんだん	senndann
 整復	せいふく	seifuku
 旅団	りょだん	ryodann
@@ -1747,7 +1747,7 @@
 護身	ごしん	goshinn
 旧来	きゅうらい	kyuurai
 かき混ぜ	かきまぜ	kakimaze
-着任	ちゃくにん	tyakuninn
+着任	ちゃくにん	chakuninn
 序曲	じょきょく	jokyoku
 総量	そうりょう	souryou
 余興	よきょう	yokyou
@@ -1797,7 +1797,7 @@
 余す	あます	amasu
 肉質	にくしつ	nikushitsu
 殺気	さっき	sakki
-格調	かくちょう	kakutyou
+格調	かくちょう	kakuchou
 破たん	はたん	hatann
 証し	しょうし|あかし	shoushi|akashi
 表象	ひょうしょう	hyoushou
@@ -1893,12 +1893,12 @@
 きな粉	きなこ	kinako
 人造	じんぞう	jinnzou
 野性	やせい	yasei
-政調	せいちょう	seityou
+政調	せいちょう	seichou
 後衛	こうえい	kouei
 写経	しゃきょう	shakyou
 再読	さいどく	saidoku
 木版	もくはん	mokuhann
-貯留	ちょりゅう	tyoryuu
+貯留	ちょりゅう	choryuu
 救える	すくえる	sukueru
 教務	きょうむ	kyoumu
 節減	せつげん	setsugenn
@@ -1976,7 +1976,7 @@
 保育所	ほいくしょ	hoikusho
 留学生	りゅうがくせい	ryuugakusei
 半導体	はんどうたい	hanndoutai
-幹事長	かんじちょう	kannjityou
+幹事長	かんじちょう	kannjichou
 資料館	しりょうかん	shiryoukann
 年賀状	ねんがじょう	nenngajou
 無意識	むいしき	muishiki
@@ -2006,7 +2006,7 @@
 対象者	たいしょうしゃ	taishousha
 説得力	せっとくりょく	settokuryoku
 編集者	へんしゅうしゃ	hennshuusha
-編集長	へんしゅうちょう	hennshuutyou
+編集長	へんしゅうちょう	hennshuuchou
 暴力団	ぼうりょくだん	bouryokudann
 会計士	かいけいし	kaikeishi
 高血圧	こうけつあつ	kouketsuatsu
@@ -2058,7 +2058,7 @@
 習慣病	しゅうかんびょう	shuukannbyou
 本質的	ほんしつてき	honnshitsuteki
 戦略的	せんりゃくてき	sennryakuteki
-直接的	ちょくせつてき	tyokusetsuteki
+直接的	ちょくせつてき	chokusetsuteki
 競技場	きょうぎじょう	kyougijou
 合格者	ごうかくしゃ	goukakusha
 技術力	ぎじゅつりょく	gijutsuryoku
@@ -2075,7 +2075,7 @@
 個人差	こじんさ	kojinnsa
 参加費	さんかひ	sannkahi
 右衛門	えもん	emonn
-準備中	じゅんびちゅう	junnbityuu
+準備中	じゅんびちゅう	junnbichuu
 指導員	しどういん	shidouinn
 出版物	しゅっぱんぶつ	shuppannbutsu
 芸術家	げいじゅつか	geijutsuka
@@ -2092,7 +2092,7 @@
 金型	かながた	kanagata
 申告書	しんこくしょ	shinnkokusho
 番外編	ばんがいへん	banngaihenn
-絶好調	ぜっこうちょう	zekkoutyou
+絶好調	ぜっこうちょう	zekkouchou
 有効性	ゆうこうせい	yuukousei
 合唱団	がっしょうだん	gasshoudann
 基地外	きちがい	kichigai
@@ -2115,7 +2115,7 @@
 生活費	せいかつひ	seikatsuhi
 助教授	じょきょうじゅ	jokyouju
 似顔絵	にがおえ	nigaoe
-在学中	ざいがくちゅう	zaigakutyuu
+在学中	ざいがくちゅう	zaigakuchuu
 停留所	ていりゅうじょ	teiryuujo
 標準的	ひょうじゅんてき	hyoujunnteki
 世紀末	せいきまつ	seikimatsu
@@ -2124,7 +2124,7 @@
 表現力	ひょうげんりょく	hyougennryoku
 支持者	しじしゃ	shijisha
 構成員	こうせいいん	kouseiinn
-支部長	しぶちょう	shibutyou
+支部長	しぶちょう	shibuchou
 再起動	さいきどう	saikidou
 感情的	かんじょうてき	kannjouteki
 相続税	そうぞくぜい	souzokuzei
@@ -2136,13 +2136,13 @@
 有用性	ゆうようせい	yuuyousei
 標準化	ひょうじゅんか	hyoujunnka
 保険証	ほけんしょう	hokennshou
-出張所	しゅっちょうしょ|しゅっちょうじょ	shuttyousho|shuttyoujo
+出張所	しゅっちょうしょ|しゅっちょうじょ	shucchousho|shucchoujo
 受講者	じゅこうしゃ	jukousha
 未対応	みたいおう	mitaiou
 関西弁	かんさいべん	kannsaibenn
-調査会	ちょうさかい	tyousakai
+調査会	ちょうさかい	chousakai
 非正規	ひせいき	hiseiki
-移動中	いどうちゅう	idoutyuu
+移動中	いどうちゅう	idouchuu
 精力的	せいりょくてき	seiryokuteki
 紀元前	きげんぜん	kigennzenn
 共益費	きょうえきひ	kyouekihi
@@ -2171,7 +2171,7 @@
 短編集	たんぺんしゅう	tannpennshuu
 新世紀	しんせいき	shinnseiki
 罪悪感	ざいあくかん	zaiakukann
-寄生虫	きせいちゅう	kiseityuu
+寄生虫	きせいちゅう	kiseichuu
 保険法	ほけんほう	hokennhou
 年会費	ねんかいひ	nennkaihi
 美術品	びじゅつひん	bijutsuhinn
@@ -2226,9 +2226,9 @@
 低気圧	ていきあつ	teikiatsu
 自営業	じえいぎょう	jieigyou
 評議員	ひょうぎいん	hyougiinn
-注意報	ちゅういほう	tyuuihou
+注意報	ちゅういほう	chuuihou
 通気性	つうきせい	tsuukisei
-成長率	せいちょうりつ	seityouritsu
+成長率	せいちょうりつ	seichouritsu
 断熱材	だんねつざい	dannnetsuzai
 現金化	げんきんか	gennkinnka
 社労士	しゃろうし	sharoushi
@@ -2240,14 +2240,14 @@
 加圧	かあつ	kaatsu
 防止法	ぼうしほう	boushihou
 飛行士	ひこうし	hikoushi
-雑記帳	ざっきちょう	zakkityou
+雑記帳	ざっきちょう	zakkichou
 明確化	めいかくか	meikakuka
 制作者	せいさくしゃ	seisakusha
 武士道	ぶしどう	bushidou
 寄付金	きふきん	kifukinn
-停止中	ていしちゅう	teishityuu
+停止中	ていしちゅう	teishichuu
 志望校	しぼうこう	shiboukou
-中国製	ちゅうごくせい	tyuugokusei
+中国製	ちゅうごくせい	chuugokusei
 受容体	じゅようたい	juyoutai
 失業率	しつぎょうりつ	shitsugyouritsu
 流動性	りゅうどうせい	ryuudousei
@@ -2258,7 +2258,7 @@
 保健室	ほけんしつ	hokennshitsu
 判断力	はんだんりょく	hanndannryoku
 新機能	しんきのう	shinnkinou
-保留中	ほりゅうちゅう	horyuutyuu
+保留中	ほりゅうちゅう	horyuuchuu
 演出家	えんしゅつか	ennshutsuka
 複数人	ふくすうにん	fukusuuninn
 不整脈	ふせいみゃく	fuseimyaku
@@ -2271,10 +2271,10 @@
 刊行物	かんこうぶつ	kannkoubutsu
 料率	りょうりつ	ryouritsu
 植物性	しょくぶつせい	shokubutsusei
-支店長	してんちょう	shitenntyou
+支店長	してんちょう	shitennchou
 社会性	しゃかいせい	shakaisei
 肉厚	にくあつ	nikuatsu
-調教師	ちょうきょうし	tyoukyoushi
+調教師	ちょうきょうし	choukyoushi
 支配下	しはいか	shihaika
 感謝祭	かんしゃさい	kannshasai
 新人賞	しんじんしょう	shinnjinnshou
@@ -2305,7 +2305,7 @@
 製造元	せいぞうもと	seizoumoto
 禁止法	きんしほう	kinnshihou
 対象物	たいしょうぶつ	taishoubutsu
-直営店	ちょくえいてん	tyokueitenn
+直営店	ちょくえいてん	chokueitenn
 停車駅	ていしゃえき	teishaeki
 競技会	きょうぎかい	kyougikai
 評議会	ひょうぎかい	hyougikai
@@ -2332,7 +2332,7 @@
 消防車	しょうぼうしゃ	shoubousha
 統計的	とうけいてき	toukeiteki
 解説者	かいせつしゃ	kaisetsusha
-備長炭	びんちょうたん	binntyoutann
+備長炭	びんちょうたん	binnchoutann
 告別式	こくべつしき	kokubetsushiki
 保守的	ほしゅてき	hoshuteki
 少年団	しょうねんだん	shounenndann
@@ -2356,14 +2356,14 @@
 主任者	しゅにんしゃ	shuninnsha
 良型	りょうけい	ryoukei
 基地局	きちきょく	kichikyoku
-調理師	ちょうりし	tyourishi
+調理師	ちょうりし	chourishi
 大動脈	だいどうみゃく	daidoumyaku
 小枝	こえだ|さえだ	koeda|saeda
 必然性	ひつぜんせい	hitsuzennsei
 高学歴	こうがくれき	kougakureki
 職員室	しょくいんしつ	shokuinnshitsu
 容積率	ようせきりつ	yousekiritsu
-調査員	ちょうさいん	tyousainn
+調査員	ちょうさいん	chousainn
 衛生的	えいせいてき	eiseiteki
 演技力	えんぎりょく	enngiryoku
 原則的	げんそくてき	gennsokuteki
@@ -2377,7 +2377,7 @@
 経産	けいさん	keisann
 事故死	じこし	jikoshi
 自意識	じいしき	jiishiki
-調査士	ちょうさし	tyousashi
+調査士	ちょうさし	chousashi
 健常者	けんじょうしゃ	kennjousha
 集団的	しゅうだんてき	shuudannteki
 総務部	そうむぶ	soumubu
@@ -2388,11 +2388,11 @@
 社保	しゃほ	shaho
 予防法	よぼうほう	yobouhou
 前職	ぜんしょく	zennshoku
-営業中	えいぎょうちゅう	eigyoutyuu
+営業中	えいぎょうちゅう	eigyouchuu
 市税	しぜい	shizei
 総務課	そうむか	soumuka
 氷河期	ひょうがき	hyougaki
-中性子	ちゅうせいし	tyuuseishi
+中性子	ちゅうせいし	chuuseishi
 独自性	どくじせい	dokujisei
 準備金	じゅんびきん	junnbikinn
 登録制	とうろくせい	tourokusei
@@ -2422,7 +2422,7 @@
 日程表	にっていひょう	nitteihyou
 輸入品	ゆにゅうひん	yunyuuhinn
 得意先	とくいさき	tokuisaki
-直輸入	ちょくゆにゅう	tyokuyunyuu
+直輸入	ちょくゆにゅう	chokuyunyuu
 外断熱	そとだんねつ	sotodannnetsu
 学術的	がくじゅつてき	gakujutsuteki
 不織	ふしょく	fushoku
@@ -2440,7 +2440,7 @@
 最新刊	さいしんかん	saishinnkann
 貸付金	かしつけきん	kashitsukekinn
 個人名	こじんめい	kojinnmei
-張本人	ちょうほんにん	tyouhonnninn
+張本人	ちょうほんにん	chouhonnninn
 現代史	げんだいし	genndaishi
 養育費	よういくひ	youikuhi
 政治学	せいじがく	seijigaku
@@ -2468,4 +2468,4 @@
 低学歴	ていがくれき	teigakureki
 前日比	ぜんじつひ	zennjitsuhi
 再生産	さいせいさん	saiseisann
-調査団	ちょうさだん	tyousadann
+調査団	ちょうさだん	chousadann
