@@ -427,22 +427,14 @@ function showGuide(currNode) {
   }
 }
 
-function upKeyEvent(event) {
-  switch (event.key) {
-    case "Shift":
-    case "CapsLock":
-      if (guide) {
-        simpleKeyboard.setOptions({ layoutName: "default" });
-        showGuide(romaNode.childNodes[typeIndex]);
-      }
-  }
-}
-
 function typeEvent(event) {
-  if (event.key == " " || event.key == "Spacebar") {
-    event.preventDefault(); // ScrollLock
+  switch (event.code) {
+    case "Space":
+      event.preventDefault();
+      // falls through
+    default:
+      return typeEventKey(event.key);
   }
-  typeEventKey(event.key);
 }
 
 function typeEventKey(key) {
@@ -458,13 +450,6 @@ function typeEventKey(key) {
       downTime(5);
       return;
     }
-    case "Shift":
-    case "CapsLock":
-      if (guide) {
-        simpleKeyboard.setOptions({ layoutName: "shift" });
-        showGuide(romaNode.childNodes[typeIndex]);
-      }
-      return;
     case "Escape":
       replay();
       return;
@@ -752,7 +737,6 @@ window.addEventListener("resize", () => {
 mode.onclick = changeMode;
 document.getElementById("guideSwitch").onchange = toggleGuide;
 startButton.addEventListener("click", replay);
-document.addEventListener("keyup", upKeyEvent);
 document.addEventListener("keydown", typeEvent);
 document.addEventListener("click", unlockAudio, {
   once: true,
