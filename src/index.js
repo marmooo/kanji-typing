@@ -551,6 +551,7 @@ loadProblems();
 
 document.getElementById("toggleDarkMode").onclick = toggleDarkMode;
 document.getElementById("toggleBGM").onclick = toggleBGM;
+document.getElementById("gradeOption").onchange = loadProblems;
 document.getElementById("virtualKeyboard").onclick = toggleKeyboard;
 window.addEventListener("resize", () => {
   resizeFontSize(aa);
