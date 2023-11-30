@@ -1,5 +1,5 @@
 import { readLines } from "https://deno.land/std/io/mod.ts";
-import { YomiDict } from "https://raw.githubusercontent.com/marmooo/yomi-dict/v0.1.3/mod.js";
+import { YomiDict } from "https://raw.githubusercontent.com/marmooo/yomi-dict/v0.1.5/mod.js";
 import { hiraToRoma } from "https://raw.githubusercontent.com/marmooo/hiraroma/main/mod.js";
 
 async function getGradedWords(filepath, threshold) {
@@ -17,23 +17,23 @@ async function getGradedWords(filepath, threshold) {
   return examples;
 }
 
-async function getGradedVocab(level, threshold) {
-  const filepath = "graded-vocab-ja/dist/" + level + ".csv";
+async function getGradedVocab(grade, threshold) {
+  const filepath = "graded-vocab-ja/dist/" + grade + ".csv";
   return await getGradedWords(filepath, threshold);
 }
 
-async function getGradedIdioms(level, threshold) {
-  const filepath = "graded-idioms-ja/dist/" + level + ".csv";
+async function getGradedIdioms(grade, threshold) {
+  const filepath = "graded-idioms-ja/dist/" + grade + ".csv";
   return await getGradedWords(filepath, threshold);
 }
 
 async function build(threshold) {
   const yomiDict = await YomiDict.load("yomi-dict/yomi.csv");
-  for (let level = 1; level <= 10; level++) {
+  for (let grade = 1; grade <= 12; grade++) {
     const result = [];
     let words = [];
-    const vocab = await getGradedVocab(level, threshold);
-    const idioms = await getGradedIdioms(level, threshold);
+    const vocab = await getGradedVocab(grade, threshold);
+    const idioms = await getGradedIdioms(grade, threshold);
     words.push(...vocab);
     words.push(...idioms);
     words = [...new Set(words)];
@@ -46,7 +46,7 @@ async function build(threshold) {
       const line = word + "\t" + yomis.join("|") + "\t" + romas.join("|");
       result.push(line);
     }
-    const outPath = "src/data/" + level + ".tsv";
+    const outPath = "src/data/" + grade + ".tsv";
     Deno.writeTextFileSync(outPath, result.join("\n"));
   }
 }
