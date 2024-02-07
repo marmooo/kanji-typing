@@ -262,7 +262,7 @@
 深刻	しんこく	shinnkoku
 警備	けいび	keibi
 激安	げきやす	gekiyasu
-届出	とどけで|とどけいで	todokede|todokeide
+届出	とどけで	todokede
 尊敬	そんけい	sonnkei
 従事	じゅうじ	juuji
 密着	みっちゃく	micchaku
@@ -748,6 +748,7 @@
 訳あり	わけあり	wakeari
 空腹	くうふく	kuufuku
 縦走	じゅうそう	juusou
+お供	おとも	otomo
 暮らせる	くらせる	kuraseru
 厳格	げんかく	gennkaku
 鉄骨	てっこつ	tekkotsu
@@ -886,7 +887,7 @@
 今晩は	こんばんは	konnbannha
 亡命	ぼうめい	boumei
 裏話	うらばなし	urabanashi
-閣下	かっか|こうか	kakka|kouka
+閣下	かっか	kakka
 土俵	どひょう	dohyou
 腸内	ちょうない	chounai
 泉質	せんしつ	sennshitsu
@@ -1050,6 +1051,7 @@
 裏返し	うらがえし	uragaeshi
 退学	たいがく	taigaku
 災難	さいなん	sainann
+推し	すいし|おし	suishi|oshi
 秘話	ひわ	hiwa
 権現	ごんげん	gonngenn
 収蔵	しゅうぞう	shuuzou
@@ -1105,6 +1107,7 @@
 君臨	くんりん	kunnrinn
 海沿い	うみぞい	umizoi
 鋼板	こうはん	kouhann
+お供え	おそなえ	osonae
 仮装	かそう	kasou
 晩秋	ばんしゅう	bannshuu
 支庁	しちょう	shichou
@@ -1344,7 +1347,6 @@
 感傷	かんしょう	kannshou
 乳頭	にゅうとう	nyuutou
 街宣	がいせん	gaisenn
-仁王	におう	niou
 忠義	ちゅうぎ	chuugi
 署員	しょいん	shoinn
 源平	げんぺい	gennpei
@@ -1444,6 +1446,7 @@
 調律	ちょうりつ	chouritsu
 激増	げきぞう	gekizou
 目論見	もくろみ	mokuromi
+しきい値	しきいち	shikiichi
 処する	しょする	shosuru
 小腸	しょうちょう	shouchou
 裁決	さいけつ	saiketsu

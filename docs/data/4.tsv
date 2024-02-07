@@ -314,7 +314,7 @@
 望む	のぞむ	nozomu
 金利	きんり	kinnri
 相続	そうぞく	souzoku
-山梨	やまなし|やまなし	yamanashi|yamanashi
+山梨	やまなし	yamanashi
 冷たい	つめたい	tsumetai
 区別	くべつ	kubetsu
 単語	たんご	tanngo
@@ -353,7 +353,7 @@
 入試	にゅうし	nyuushi
 議長	ぎちょう	gichou
 試み	こころみ	kokoromi
-世帯	しょたい|じょたい|せたい	shotai|jotai|setai
+世帯	せたい|しょたい|じょたい	setai|shotai|jotai
 特急	とっきゅう	tokkyuu
 米軍	べいぐん	beigunn
 お笑い	おわらい	owarai
@@ -507,7 +507,6 @@
 学的	がくてき	gakuteki
 民宿	みんしゅく	minnshuku
 愛用	あいよう	aiyou
-観音	かんのん	kannnonn
 加算	かさん	kasann
 信じる	しんじる	shinnjiru
 必見	ひっけん	hikkenn
@@ -702,6 +701,7 @@
 無知	むち	muchi
 少量	しょうりょう	shouryou
 建てる	たてる|だてる	tateru|dateru
+お参り	おまいり	omairi
 積み重ね	つみかさね	tsumikasane
 試食	ししょく	shishoku
 議決	ぎけつ	giketsu
@@ -1248,6 +1248,7 @@
 焼きたて	やきたて	yakitate
 白衣	はくい|びゃくい|びゃくえ	hakui|byakui|byakue
 気付け	きづけ|きつけ	kiduke|kitsuke
+お札	おさつ|おふだ	osatsu|ofuda
 水害	すいがい	suigai
 塩味	しおあじ	shioaji
 用例	ようれい	yourei
@@ -1698,7 +1699,7 @@
 億万	おくまん	okumann
 病的	びょうてき	byouteki
 祝辞	しゅくじ	shukuji
-朝飯	あさはん|あさめし	asahann|asameshi
+朝飯	あさめし|あさはん	asameshi|asahann
 開成	かいせい	kaisei
 飛び入り	とびいり	tobiiri
 農産	のうさん	nousann
@@ -1760,6 +1761,7 @@
 輪切り	わぎり	wagiri
 極道	ごくどう	gokudou
 七輪	しちりん	shichirinn
+お仕置き	おしおき	oshioki
 辞令	じれい	jirei
 各局	かくきょく	kakukyoku
 群集	ぐんしゅう	gunnshuu
@@ -1970,6 +1972,7 @@
 決定的	けっていてき	ketteiteki
 科学省	かがくしょう	kagakushou
 法改正	ほうかいせい	houkaisei
+不動産屋	ふどうさんや	fudousannya
 未成年	みせいねん	miseinenn
 要注意	ようちゅうい	youchuui
 物理的	ぶつりてき	butsuriteki
@@ -2072,6 +2075,7 @@
 交通量	こうつうりょう	koutsuuryou
 入場料	にゅうじょうりょう	nyuujouryou
 借入金	かりいれきん	kariirekinn
+配送料	はいそうりょう	haisouryou
 散歩道	さんぽみち	sannpomichi
 古民家	こみんか	kominnka
 近代的	きんだいてき	kinndaiteki
@@ -2196,7 +2200,7 @@
 集中的	しゅうちゅうてき	shuuchuuteki
 土産物	みやげもの	miyagemono
 初勝利	はつしょうり	hatsushouri
-実体験	じったいけん|じつたいけん	jittaikenn|jitsutaikenn
+実体験	じったいけん	jittaikenn
 高周波	こうしゅうは	koushuuha
 静電気	せいでんき	seidennki
 人民元	じんみんげん	jinnminngenn
