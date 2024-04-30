@@ -1,4 +1,4 @@
-const CACHE_NAME = "2024-04-24 01:20";
+const CACHE_NAME = "2024-05-01 01:20";
 const urlsToCache = [
   "/kanji-typing/",
   "/kanji-typing/index.js",
@@ -9,7 +9,6 @@ const urlsToCache = [
   "/kanji-typing/mp3/keyboard.mp3",
   "/kanji-typing/favicon/favicon.svg",
   "https://marmooo.github.io/fonts/textar-light.woff2",
-  "https://cdn.jsdelivr.net/npm/simple-keyboard@3.4.52/build/index.min.js",
 ];
 
 self.addEventListener("install", (event) => {
