@@ -262,7 +262,7 @@ function removeGuide(key) {
     keyboard.setOptions({ layoutName: "default" });
   } else {
     const shift = keyboard.getButtonElement("{shift}");
-    shift.classList.remove("guide");
+    if (shift) shift.classList.remove("guide");
   }
 }
 
@@ -273,7 +273,7 @@ function showGuide(key) {
     button.classList.add("guide");
   } else {
     const shift = keyboard.getButtonElement("{shift}");
-    shift.classList.add("guide");
+    if (shift) shift.classList.add("guide");
   }
 }
 
@@ -293,11 +293,7 @@ function typeEventKey(key) {
       const text = problem.yomis[0];
       loopVoice(text, 1);
       japanese.textContent = problem.yomis[0];
-      const visibility = "visible";
-      japanese.style.visibility = visibility;
-      const children = romaNode.children;
-      children[1].style.visibility = visibility;
-      children[2].style.visibility = visibility;
+      changeVisibility("visible");
       downTime(5);
       return;
     }
@@ -413,6 +409,13 @@ function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
 
+function changeVisibility(visibility) {
+  const children = romaNode.children;
+  children[1].style.visibility = visibility;
+  children[2].style.visibility = visibility;
+  japanese.style.visibility = visibility;
+}
+
 function typable() {
   const prevProblem = problem;
   problem = problems[getRandomInt(0, problems.length)];
@@ -428,10 +431,7 @@ function typable() {
 
   if (mode.textContent == "EASY") loopVoice(yomi, 1);
   const visibility = (mode.textContent == "EASY") ? "visible" : "hidden";
-  children[1].style.visibility = visibility;
-  children[2].style.visibility = visibility;
-  japanese.style.visibility = visibility;
-
+  changeVisibility(visibility);
   resizeFontSize(aa);
   if (guide) {
     if (prevProblem) {
@@ -538,12 +538,15 @@ function scoring() {
 }
 
 function changeMode(event) {
+  normalCount = errorCount = solveCount = 0;
   document.getElementById("time").textContent = gameTime;
   if (event.target.textContent == "EASY") {
     event.target.textContent = "HARD";
   } else {
     event.target.textContent = "EASY";
   }
+  const visibility = (mode.textContent == "EASY") ? "visible" : "hidden";
+  changeVisibility(visibility);
 }
 
 resizeFontSize(aa);
