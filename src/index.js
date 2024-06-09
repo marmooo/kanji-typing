@@ -538,6 +538,7 @@ function scoring() {
 }
 
 function changeMode(event) {
+  document.getElementById("time").textContent = gameTime;
   if (event.target.textContent == "EASY") {
     event.target.textContent = "HARD";
   } else {
