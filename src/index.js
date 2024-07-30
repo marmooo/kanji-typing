@@ -470,7 +470,6 @@ function typable() {
 function countdown() {
   if (countdowning) return;
   countdowning = true;
-  normalCount = errorCount = solveCount = 0;
   if (localStorage.getItem("bgm") == 1) bgm.play();
   document.getElementById("guideSwitch").disabled = true;
   document.getElementById("virtualKeyboard").disabled = true;
@@ -488,6 +487,7 @@ function countdown() {
     } else {
       countdowning = false;
       playing = true;
+      normalCount = errorCount = solveCount = 0;
       clearInterval(timer);
       document.getElementById("guideSwitch").disabled = false;
       document.getElementById("virtualKeyboard").disabled = false;
