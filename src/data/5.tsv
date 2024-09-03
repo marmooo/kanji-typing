@@ -2167,6 +2167,7 @@
 再起動	さいきどう	saikidou
 感情的	かんじょうてき	kannjouteki
 相続税	そうぞくぜい	souzokuzei
+内容量	ないようりょう	naiyouryou
 現在地	げんざいち	gennzaichi
 神経質	しんけいしつ	shinnkeishitsu
 組織的	そしきてき	soshikiteki
@@ -2194,6 +2195,7 @@
 所得者	しょとくしゃ	shotokusha
 女性用	じょせいよう	joseiyou
 資格者	しかくしゃ	shikakusha
+会員制	かいいんせい	kaiinnsei
 絶望的	ぜつぼうてき	zetsubouteki
 精神病	せいしんびょう	seishinnbyou
 適正化	てきせいか	tekiseika
@@ -2214,6 +2216,7 @@
 年会費	ねんかいひ	nennkaihi
 美術品	びじゅつひん	bijutsuhinn
 同性愛	どうせいあい	douseiai
+多機能	たきのう	takinou
 招待状	しょうたいじょう	shoutaijou
 消費量	しょうひりょう	shouhiryou
 検察官	けんさつかん	kennsatsukann
@@ -2234,6 +2237,7 @@
 修道院	しゅうどういん	shuudouinn
 自給率	じきゅうりつ	jikyuuritsu
 研究費	けんきゅうひ	kennkyuuhi
+製作者	せいさくしゃ	seisakusha
 研修生	けんしゅうせい	kennshuusei
 不規則	ふきそく	fukisoku
 居住者	きょじゅうしゃ	kyojuusha
@@ -2262,6 +2266,7 @@
 運転士	うんてんし	unntennshi
 低気圧	ていきあつ	teikiatsu
 自営業	じえいぎょう	jieigyou
+義務者	ぎむしゃ	gimusha
 評議員	ひょうぎいん	hyougiinn
 注意報	ちゅういほう	chuuihou
 通気性	つうきせい	tsuukisei
@@ -2303,6 +2308,7 @@
 金属製	きんぞくせい	kinnzokusei
 求職者	きゅうしょくしゃ	kyuushokusha
 刊行物	かんこうぶつ	kannkoubutsu
+人物像	じんぶつぞう	jinnbutsuzou
 植物性	しょくぶつせい	shokubutsusei
 支店長	してんちょう	shitennchou
 社会性	しゃかいせい	shakaisei
@@ -2326,6 +2332,7 @@
 在来線	ざいらいせん	zairaisenn
 合理性	ごうりせい	gourisei
 非公式	ひこうしき	hikoushiki
+好印象	こういんしょう	kouinnshou
 設計図	せっけいず	sekkeizu
 製品化	せいひんか	seihinnka
 暴力的	ぼうりょくてき	bouryokuteki
@@ -2333,6 +2340,7 @@
 製造元	せいぞうもと	seizoumoto
 禁止法	きんしほう	kinnshihou
 対象物	たいしょうぶつ	taishoubutsu
+実用性	じつようせい	jitsuyousei
 直営店	ちょくえいてん	chokueitenn
 停車駅	ていしゃえき	teishaeki
 競技会	きょうぎかい	kyougikai
@@ -2342,6 +2350,7 @@
 解説書	かいせつしょ	kaisetsusho
 事務員	じむいん	jimuinn
 性犯罪	せいはんざい	seihannzai
+測定器	そくていき	sokuteiki
 芸術祭	げいじゅつさい	geijutsusai
 栄養価	えいようか	eiyouka
 利益率	りえきりつ	riekiritsu
@@ -2363,6 +2372,7 @@
 告別式	こくべつしき	kokubetsushiki
 保守的	ほしゅてき	hoshuteki
 少年団	しょうねんだん	shounenndann
+予備軍	よびぐん	yobigunn
 同一性	どういつせい	douitsusei
 合格率	ごうかくりつ	goukakuritsu
 感謝状	かんしゃじょう	kannshajou
@@ -2400,6 +2410,7 @@
 不適当	ふてきとう	futekitou
 道州制	どうしゅうせい	doushuusei
 事故死	じこし	jikoshi
+高評価	こうひょうか	kouhyouka
 自意識	じいしき	jiishiki
 調査士	ちょうさし	chousashi
 健常者	けんじょうしゃ	kennjousha
@@ -2420,6 +2431,7 @@
 現代語	げんだいご	genndaigo
 一体型	いったいがた	ittaigata
 委任状	いにんじょう	ininnjou
+婦人服	ふじんふく	fujinnfuku
 統計学	とうけいがく	toukeigaku
 表示順	ひょうじじゅん	hyoujijunn
 高気圧	こうきあつ	koukiatsu
@@ -2430,6 +2442,7 @@
 自主性	じしゅせい	jishusei
 団体戦	だんたいせん	danntaisenn
 先天性	せんてんせい	senntennsei
+血液中	けつえきちゅう	ketsuekichuu
 確実性	かくじつせい	kakujitsusei
 無機質	むきしつ	mukishitsu
 無限大	むげんだい	mugenndai
@@ -2473,10 +2486,12 @@
 断続的	だんぞくてき	dannzokuteki
 小型犬	こがたけん	kogatakenn
 過労死	かろうし	karoushi
+事故車	じこしゃ	jikosha
 定時制	ていじせい	teijisei
 無期限	むきげん	mukigenn
 総動員	そうどういん	soudouinn
 高水準	こうすいじゅん	kousuijunn
+保育料	ほいくりょう	hoikuryou
 大本営	だいほんえい	daihonnei
 動物性	どうぶつせい	doubutsusei
 競技者	きょうぎしゃ	kyougisha

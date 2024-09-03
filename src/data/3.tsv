@@ -263,7 +263,7 @@
 苦手	にがて	nigate
 主人	しゅじん	shujinn
 方式	ほうしき	houshiki
-勝負	しょうぶ|かちまけ	shoubu|kachimake
+勝負	しょうぶ	shoubu
 相場	そうば	souba
 温度	おんど	onndo
 所有	しょゆう	shoyuu
@@ -606,7 +606,6 @@
 大橋	おおはし	oohashi
 死体	したい	shitai
 運送	うんそう	unnsou
-重さ	おもさ	omosa
 一流	いちりゅう	ichiryuu
 金持ち	かねもち|がねもち	kanemochi|ganemochi
 温かい	あたたかい	atatakai
@@ -1169,7 +1168,6 @@
 鼻水	はなみず	hanamizu
 空想	くうそう	kuusou
 大祭	たいさい	taisai
-一人旅	ひとりたび	hitoritabi
 後部	こうぶ	koubu
 動植物	どうしょくぶつ	doushokubutsu
 死神	しにがみ	shinigami
@@ -1239,6 +1237,7 @@
 病理	びょうり	byouri
 対等	たいとう	taitou
 問答	もんどう	monndou
+一安心	ひとあんしん	hitoannshinn
 記帳	きちょう	kichou
 待ち受け	まちうけ	machiuke
 水銀	すいぎん	suiginn
@@ -2207,6 +2206,7 @@
 商取引	しょうとりひき	shoutorihiki
 事業者	じぎょうしゃ	jigyousha
 委員長	いいんちょう	iinnchou
+第三者	だいさんしゃ	daisannsha
 面白	おもしろ	omoshiro
 研究会	けんきゅうかい	kennkyuukai
 飲食店	いんしょくてん	innshokutenn
@@ -2229,6 +2229,7 @@
 代理店	だいりてん	dairitenn
 有名人	ゆうめいじん	yuumeijinn
 運転手	うんてんしゅ	unntennshu
+出品者	しゅっぴんしゃ	shuppinnsha
 動物園	どうぶつえん	doubutsuenn
 今年度	こんねんど	konnnenndo
 体育館	たいいくかん	taiikukann
@@ -2334,6 +2335,7 @@
 問題集	もんだいしゅう	monndaishuu
 商品化	しょうひんか	shouhinnka
 代表作	だいひょうさく	daihyousaku
+一人旅	ひとりたび	hitoritabi
 正当化	せいとうか	seitouka
 植物園	しょくぶつえん	shokubutsuenn
 思春期	ししゅんき	shishunnki
@@ -2355,7 +2357,9 @@
 自動化	じどうか	jidouka
 生活者	せいかつしゃ	seikatsusha
 上級者	じょうきゅうしゃ	joukyuusha
+中央部	ちゅうおうぶ	chuuoubu
 物理学	ぶつりがく	butsurigaku
+使用感	しようかん	shiyoukann
 自由度	じゆうど	jiyuudo
 新発売	しんはつばい	shinnhatsubai
 工学部	こうがくぶ	kougakubu
@@ -2377,6 +2381,7 @@
 正反対	せいはんたい	seihanntai
 教育長	きょういくちょう	kyouikuchou
 部屋数	へやかず	heyakazu
+青年部	せいねんぶ	seinennbu
 感想文	かんそうぶん	kannsoubunn
 農作物	のうさくもつ	nousakumotsu
 町役場	まちやくば	machiyakuba
@@ -2401,6 +2406,7 @@
 都知事	とちじ	tochiji
 音楽祭	おんがくさい	onngakusai
 安定化	あんていか	annteika
+入院中	にゅういんちゅう	nyuuinnchuu
 内定者	ないていしゃ	naiteisha
 電気代	でんきだい	dennkidai
 三者	さんしゃ	sannsha
@@ -2417,6 +2423,7 @@
 炭水化物	たんすいかぶつ	tannsuikabutsu
 七福神	しちふくじん	shichifukujinn
 白血病	はっけつびょう	hakketsubyou
+同世代	どうせだい	dousedai
 野球場	やきゅうじょう	yakyuujou
 注目度	ちゅうもくど	chuumokudo
 高度化	こうどか	koudoka
@@ -2455,6 +2462,7 @@
 高速化	こうそくか	kousokuka
 予定者	よていしゃ	yoteisha
 乗組員	のりくみいん	norikumiinn
+開口部	かいこうぶ	kaikoubu
 作品名	さくひんめい	sakuhinnmei
 角部屋	かどべや	kadobeya
 運転中	うんてんちゅう	unntennchuu
@@ -2481,6 +2489,7 @@
 休館日	きゅうかんび	kyuukannbi
 役員会	やくいんかい	yakuinnkai
 間取図	まどりず	madorizu
+入所者	にゅうしょしゃ	nyuushosha
 水平線	すいへいせん	suiheisenn
 西海岸	にしかいがん	nishikaigann
 美少年	びしょうねん	bishounenn
@@ -2500,6 +2509,7 @@
 手荷物	てにもつ	tenimotsu
 高級車	こうきゅうしゃ	koukyuusha
 温度計	おんどけい	onndokei
+会員数	かいいんすう	kaiinnsuu
 事業場	じぎょうじょう	jigyoujou
 教育者	きょういくしゃ	kyouikusha
 実力者	じつりょくしゃ	jitsuryokusha
@@ -2508,6 +2518,7 @@
 白血球	はっけっきゅう	hakkekkyuu
 予定表	よていひょう	yoteihyou
 一元化	いちげんか	ichigennka
+旅行先	りょこうさき	ryokousaki
 理学部	りがくぶ	rigakubu
 入場者	にゅうじょうしゃ	nyuujousha
 集合体	しゅうごうたい	shuugoutai
@@ -2530,6 +2541,7 @@
 表面化	ひょうめんか	hyoumennka
 転校生	てんこうせい	tennkousei
 定年後	ていねんご	teinenngo
+通学路	つうがくろ	tsuugakuro
 細分化	さいぶんか	saibunnka
 北東部	ほくとうぶ	hokutoubu
 学会員	がっかいいん	gakkaiinn
