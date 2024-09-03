@@ -328,7 +328,6 @@
 片付け	かたづけ	kataduke
 安値	やすね	yasune
 武将	ぶしょう	bushou
-一人暮らし	ひとりぐらし	hitorigurashi
 視察	しさつ	shisatsu
 済む	すむ	sumu
 展覧	てんらん	tennrann
@@ -1321,7 +1320,6 @@
 紅色	こうしょく|べにいろ	koushoku|beniiro
 装丁	そうてい	soutei
 沿う	そう	sou
-ひとり暮らし	ひとりぐらし	hitorigurashi
 映す	うつす	utsusu
 優れもの	すぐれもの	suguremono
 私物	しぶつ	shibutsu
@@ -1594,10 +1592,12 @@
 外資系	がいしけい	gaishikei
 従量制	じゅうりょうせい	juuryousei
 最優先	さいゆうせん	saiyuusenn
+会員権	かいいんけん	kaiinnkenn
 参政権	さんせいけん	sannseikenn
 従事者	じゅうじしゃ	juujisha
 何枚	なんまい	nannmai
 理論的	りろんてき	rironnteki
+解決策	かいけつさく	kaiketsusaku
 準優勝	じゅんゆうしょう	junnyuushou
 温泉郷	おんせんきょう	onnsennkyou
 乗車券	じょうしゃけん	joushakenn
@@ -1622,6 +1622,7 @@
 温泉街	おんせんがい	onnsenngai
 一段落	いちだんらく	ichidannraku
 消防署	しょうぼうしょ	shoubousho
+子供服	こどもふく	kodomofuku
 対処法	たいしょほう	taishohou
 放射性	ほうしゃせい	houshasei
 高収入	こうしゅうにゅう	koushuunyuu
@@ -1652,6 +1653,7 @@
 全盛期	ぜんせいき	zennseiki
 洗面所	せんめんじょ	sennmennjo
 整理券	せいりけん	seirikenn
+異世界	いせかい	isekai
 危険物	きけんぶつ	kikennbutsu
 権力者	けんりょくしゃ	kennryokusha
 純利益	じゅんりえき	junnrieki
@@ -1674,6 +1676,7 @@
 深呼吸	しんこきゅう	shinnkokyuu
 就職先	しゅうしょくさき	shuushokusaki
 納税者	のうぜいしゃ	nouzeisha
+異文化	いぶんか	ibunnka
 諸事情	しょじじょう	shojijou
 水蒸気	すいじょうき	suijouki
 障害物	しょうがいぶつ	shougaibutsu
@@ -1692,6 +1695,7 @@
 天守閣	てんしゅかく	tennshukaku
 心臓病	しんぞうびょう	shinnzoubyou
 基準値	きじゅんち	kijunnchi
+疑問点	ぎもんてん	gimonntenn
 意欲的	いよくてき	iyokuteki
 死亡率	しぼうりつ	shibouritsu
 将来性	しょうらいせい	shouraisei
@@ -1716,6 +1720,7 @@
 視覚的	しかくてき	shikakuteki
 体系的	たいけいてき	taikeiteki
 勤労者	きんろうしゃ	kinnrousha
+法律案	ほうりつあん	houritsuann
 優等生	ゆうとうせい	yuutousei
 届出書	とどけでしょ	todokedesho
 太陽系	たいようけい	taiyoukei
