@@ -1,6 +1,6 @@
 import { TextLineStream } from "jsr:@std/streams/text-line-stream";
-import { YomiDict } from "https://raw.githubusercontent.com/marmooo/yomi-dict/v0.1.7/mod.js";
-import { hiraToRoma } from "https://raw.githubusercontent.com/marmooo/hiraroma/main/mod.js";
+import { YomiDict } from "npm:yomi-dict@0.1.8";
+import { hiraToRoma } from "npm:hiraroma@0.0.1";
 
 async function getGradedWords(filePath, threshold) {
   const examples = [];
