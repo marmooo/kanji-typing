@@ -157,8 +157,14 @@ function toggleKeyboard() {
 function toggleGuide(event) {
   if (event.target.checked) {
     guide = true;
+    if (problem) {
+      const nextKey =
+        problem.romajis[0].currentNode.children.keys().next().value;
+      showGuide(nextKey);
+    }
   } else {
     guide = false;
+    if (problem) removePrevGuide(problem);
   }
 }
 
@@ -337,6 +343,7 @@ function typeEventKey(key) {
       }
   }
   if (key.length == 1) {
+    if (!problem) return;
     const prevNode = problem.romajis[0].currentNode;
     const states = problem.romajis.map((romaji) => romaji.input(key));
     if (states.some((state) => state)) {
