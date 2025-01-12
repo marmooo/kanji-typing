@@ -7,12 +7,14 @@
 - install [marmooo/yomi-dict](https://github.com/marmooo/yomi-dict) licensed
   under the Apache-2.0
 - install [marmooo/graded-vocab-ja](https://github.com/marmooo/graded-vocab-ja)
-  licensed under the CC-BY 4.0
+  licensed under the CC-BY-4.0
 - install
   [marmooo/graded-idioms-ja](https://github.com/marmooo/graded-idioms-ja)
-  licensed under the CC-BY 4.0
+  licensed under the CC-BY-4.0
 
 ## Build
 
-- `deno run --allow-read --allow-write build.js`
-- `bash build.sh`
+```
+deno run -RWE build.js
+bash build.sh
+```
