@@ -54,11 +54,10 @@
         font-size:10rem; width:12rem; height:12rem; line-height:12rem; border-radius: 50%;
         background:tomato; color:black; margin:auto; }
       #aaOuter {
+        height:calc(100vh - 320px); overflow:hidden;
         background:transparent; display:flex; align-items:center; justify-content:center;
-        overflow:hidden;
       }
       #aa { position:relative; top:0; left:0; margin:auto; }
-      #gamePanel { height:calc(100vh - 320px); }
       #typePanel { font-variant-ligatures:none; word-wrap: break-word; }
       #keyboard { touch-action:manipulation; }
       .hg-theme-default .hg-button { height:50px; font-size:2.5rem; }
@@ -157,53 +156,53 @@ sudo apt install festival speech-dispatcher-festival</code></pre>
             </div>
           </div>
         </div>
-        <div id="gamePanel" class="d-flex flex-column">
-          <div id="aaOuter" class="flex-grow-1 notranslate">
-            <pre id="aa" class="aa">　 　 　　　　　　　　　　　彡⌒ ミ　/　　彡⌒ ミ　　読み方がわからない時は？
-  　 　 　 　 　 　 　 　 　 (｀・ω・)/　 　(･ω･´)
-  　　　　　 彡⌒ ﾐ. 　 　 (　　　つ　 　 ( 　 　 ) .彡⌒ ミ
-  　　　　　 ( ｀・ω) .／￣￣￣￣￣￣￣￣￣lll(ω・´ )　ヒント機能があるぞ！
-  　　　　　　|　　　つ、＿ 　　　　　　　　　Σ　⊂　　　|
-  　　彡⌒ ﾐゝ-／　／ ／ 　　　　　　　　　 ＿　─＼ノ
-  　　( ｀・ω)／＿　 ￣　　　　　　　　　　　＼ ＼　 彡⌒ ミ
-  　　 |　　つ／ ／　　　　　　 　 　 　 　 　 　 ￣ ⊂(ω-｀ )ヽ　　5 秒へるけどな
-  　　 ゝ／　 ￣＝ o　　　　　　　　　　　　　　　　　　⊂二ノ　）
-  　　　|￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣|
+      </div>
+      <div id="gamePanel" class="positioin-relative overflow-hidden">
+        <div id="aaOuter" class="notranslate">
+          <pre id="aa" class="aa">　 　 　　　　　　　　　　　彡⌒ ミ　/　　彡⌒ ミ　　読み方がわからない時は？
+　 　 　 　 　 　 　 　 　 (｀・ω・)/　 　(･ω･´)
+　　　　　 彡⌒ ﾐ. 　 　 (　　　つ　 　 ( 　 　 ) .彡⌒ ミ
+　　　　　 ( ｀・ω) .／￣￣￣￣￣￣￣￣￣lll(ω・´ )　ヒント機能があるぞ！
+　　　　　　|　　　つ、＿ 　　　　　　　　　Σ　⊂　　　|
+　　彡⌒ ﾐゝ-／　／ ／ 　　　　　　　　　 ＿　─＼ノ
+　　( ｀・ω)／＿　 ￣　　　　　　　　　　　＼ ＼　 彡⌒ ミ
+　　 |　　つ／ ／　　　　　　 　 　 　 　 　 　 ￣ ⊂(ω-｀ )ヽ　　5 秒へるけどな
+　　 ゝ／　 ￣＝ o　　　　　　　　　　　　　　　　　　⊂二ノ　）
+　　　|￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣|
+          </pre>
+        </div>
+        <div id="playPanel" class="notranslate">
+          <div id="typePanel" class="alert alert-info h2 mb-0 text-center">
+            <div id="japanese">かんじ</div>
+            <div id="roma">
+              <span class="inputed"></span><span class="wanted">k</span><span class="remained">anji</span>
+            </div>
+          </div>
+          <div id="keyboard" class="d-none simple-keyboard"></div>
+        </div>
+      </div>
+      <div id="scorePanel" class="text-center pb-3 d-none">
+        <h3 class="pt-3">スコア</h3>
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="notranslate">
+            <pre class="aa">　　　　　γ⌒ヽ
+　　　　__/　　/
+　γ￣＿_） （　 Λ,,Λ
+　（ 　 ＿__）　）(｀・ω・´)
+　（　　＿__） ﾉﾍ　　　.. |&gt;
+　 乂＿__)_ノ　　しーＪ
             </pre>
           </div>
-          <div id="playPanel" class="notranslate">
-            <div id="typePanel" class="alert alert-info h2 mb-0 text-center">
-              <div id="japanese">かんじ</div>
-              <div id="roma">
-                <span class="inputed"></span><span class="wanted">k</span><span class="remained">anji</span>
-              </div>
-            </div>
-            <div id="keyboard" class="d-none simple-keyboard"></div>
-          </div>
+          <div class="ps-1">スコアだよ！</div>
         </div>
-        <div id="scorePanel" class="text-center pb-3 d-none">
-          <h3 class="pt-3">スコア</h3>
-          <div class="d-flex justify-content-center align-items-center">
-            <div class="notranslate">
-              <pre class="aa">　　　　　γ⌒ヽ
-  　　　　__/　　/
-  　γ￣＿_） （　 Λ,,Λ
-  　（ 　 ＿__）　）(｀・ω・´)
-  　（　　＿__） ﾉﾍ　　　.. |&gt;
-  　 乂＿__)_ノ　　しーＪ
-              </pre>
-            </div>
-            <div class="ps-1">スコアだよ！</div>
-          </div>
-          <table class="table table-striped">
-            <tbody>
-              <tr><td>総タイプ数</td><td><span id="totalType"></span> <span>回</span></td></tr>
-              <tr><td>スピード</td><td><span id="typeSpeed"></span> <span>回/秒</span></td></tr>
-              <tr><td>ミスタイプ数</td><td><span id="errorType"></span> <span>回</span></td></tr>
-            </tbody>
-          </table>
-          <a id="twitter" target="_blank" href="https://twitter.com/intent/tweet?text=漢字タイピングで遊んだよ!&url=https://marmooo.github.com/kanji-typing/&hashtags=漢字タイピング" class="btn btn-primary" role="button">Twitter でつぶやく</a>
-        </div>
+        <table class="table table-striped">
+          <tbody>
+            <tr><td>総タイプ数</td><td><span id="totalType"></span> <span>回</span></td></tr>
+            <tr><td>スピード</td><td><span id="typeSpeed"></span> <span>回/秒</span></td></tr>
+            <tr><td>ミスタイプ数</td><td><span id="errorType"></span> <span>回</span></td></tr>
+          </tbody>
+        </table>
+        <a id="twitter" target="_blank" href="https://twitter.com/intent/tweet?text=漢字タイピングで遊んだよ!&url=https://marmooo.github.com/kanji-typing/&hashtags=漢字タイピング" class="btn btn-primary" role="button">Twitter でつぶやく</a>
       </div>
       <div id="countPanel" class="text-center d-none">
         <div id="counter" class="notranslate"></div>
