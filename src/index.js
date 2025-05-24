@@ -172,8 +172,8 @@ function toggleGuide(event) {
 }
 
 function createAudioContext() {
-  if (globalThis.AudioContext) {
-    return new globalThis.AudioContext();
+  if (AudioContext) {
+    return new AudioContext();
   } else {
     console.error("Web Audio API is not supported in this browser");
     return null;
@@ -181,6 +181,10 @@ function createAudioContext() {
 }
 
 function unlockAudio() {
+  const uttr = new SpeechSynthesisUtterance("");
+  uttr.lang = "ja-JP";
+  speechSynthesis.speak(uttr);
+
   if (audioContext) {
     audioContext.resume();
   } else {
@@ -190,7 +194,7 @@ function unlockAudio() {
     loadAudio("correct", "mp3/correct.mp3");
     loadAudio("incorrect", "mp3/cat.mp3");
   }
-  document.removeEventListener("pointerdown", unlockAudio);
+  document.removeEventListener("click", unlockAudio);
   document.removeEventListener("keydown", unlockAudio);
 }
 
@@ -252,7 +256,7 @@ function loadVoices() {
 
 function loopVoice(text, n) {
   speechSynthesis.cancel();
-  const msg = new globalThis.SpeechSynthesisUtterance(text);
+  const msg = new SpeechSynthesisUtterance(text);
   msg.voice = japaneseVoices[Math.floor(Math.random() * japaneseVoices.length)];
   msg.lang = "ja-JP";
   for (let i = 0; i < n; i++) {
@@ -597,5 +601,5 @@ mode.onclick = changeMode;
 document.getElementById("guideSwitch").onchange = toggleGuide;
 startButton.addEventListener("click", startGame);
 document.addEventListener("keydown", typeEvent);
-document.addEventListener("pointerdown", unlockAudio, { once: true });
+document.addEventListener("click", unlockAudio, { once: true });
 document.addEventListener("keydown", unlockAudio, { once: true });
