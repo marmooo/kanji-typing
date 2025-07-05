@@ -484,6 +484,11 @@ function typable() {
 }
 
 function countdown() {
+  const aaOuter = document.getElementById("aaOuter");
+  const typePanel = document.getElementById("typePanel");
+  const keyboardPanel = document.getElementById("keyboard");
+  aaOuter.after(typePanel, keyboardPanel);
+
   if (countdowning) return;
   countdowning = true;
   if (localStorage.getItem("bgm") == 1) bgm.play();
