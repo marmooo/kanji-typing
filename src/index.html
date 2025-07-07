@@ -157,7 +157,28 @@ sudo apt install festival speech-dispatcher-festival</code></pre>
           </div>
         </div>
       </div>
-      <div id="gamePanel"></div>
+      <div id="gamePanel">
+        <div id="aaOuter" class="notranslate">
+          <pre id="aa" class="aa">　 　 　　　　　　　　　　　彡⌒ ミ　/　　彡⌒ ミ　　読み方がわからない時は？
+　 　 　 　 　 　 　 　 　 (｀・ω・)/　 　(･ω･´)
+　　　　　 彡⌒ ﾐ. 　 　 (　　　つ　 　 ( 　 　 ) .彡⌒ ミ
+　　　　　 ( ｀・ω) .／￣￣￣￣￣￣￣￣￣lll(ω・´ )　ヒント機能があるぞ！
+　　　　　　|　　　つ、＿ 　　　　　　　　　Σ　⊂　　　|
+　　彡⌒ ﾐゝ-／　／ ／ 　　　　　　　　　 ＿　─＼ノ
+　　( ｀・ω)／＿　 ￣　　　　　　　　　　　＼ ＼　 彡⌒ ミ
+　　 |　　つ／ ／　　　　　　 　 　 　 　 　 　 ￣ ⊂(ω-｀ )ヽ　　5 秒へるけどな
+　　 ゝ／　 ￣＝ o　　　　　　　　　　　　　　　　　　⊂二ノ　）
+　　　|￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣|
+          </pre>
+        </div>
+        <div id="typePanel" class="alert alert-info h2 mb-0 text-center notranslate">
+          <div id="japanese">かんじ</div>
+          <div id="roma">
+            <span class="inputed"></span><span class="wanted">k</span><span class="remained">anji</span>
+          </div>
+        </div>
+        <div id="keyboard" class="d-none simple-keyboard notranslate"></div>
+      </div>
       <div id="scorePanel" class="text-center pb-3 d-none">
         <h3 class="pt-3">スコア</h3>
         <div class="d-flex justify-content-center align-items-center">
@@ -323,28 +344,6 @@ sudo apt install festival speech-dispatcher-festival</code></pre>
       <div class="text-muted">&copy; <a href="https://github.com/marmooo">marmooo</a>
       </div>
     </footer>
-    <template id="gamePanelTemplate">
-      <div id="aaOuter" class="notranslate">
-        <pre id="aa" class="aa">　 　 　　　　　　　　　　　彡⌒ ミ　/　　彡⌒ ミ　　読み方がわからない時は？
-　 　 　 　 　 　 　 　 　 (｀・ω・)/　 　(･ω･´)
-　　　　　 彡⌒ ﾐ. 　 　 (　　　つ　 　 ( 　 　 ) .彡⌒ ミ
-　　　　　 ( ｀・ω) .／￣￣￣￣￣￣￣￣￣lll(ω・´ )　ヒント機能があるぞ！
-　　　　　　|　　　つ、＿ 　　　　　　　　　Σ　⊂　　　|
-　　彡⌒ ﾐゝ-／　／ ／ 　　　　　　　　　 ＿　─＼ノ
-　　( ｀・ω)／＿　 ￣　　　　　　　　　　　＼ ＼　 彡⌒ ミ
-　　 |　　つ／ ／　　　　　　 　 　 　 　 　 　 ￣ ⊂(ω-｀ )ヽ　　5 秒へるけどな
-　　 ゝ／　 ￣＝ o　　　　　　　　　　　　　　　　　　⊂二ノ　）
-　　　|￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣|
-        </pre>
-      </div>
-      <div id="typePanel" class="alert alert-info h2 mb-0 text-center notranslate">
-        <div id="japanese">かんじ</div>
-        <div id="roma">
-          <span class="inputed"></span><span class="wanted">k</span><span class="remained">anji</span>
-        </div>
-      </div>
-      <div id="keyboard" class="d-none simple-keyboard notranslate"></div>
-    </template>
     <script type="module" src="index.js"></script>
   </body>
 </html>
