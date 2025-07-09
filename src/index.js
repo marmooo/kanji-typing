@@ -251,14 +251,12 @@ function loadVoices() {
   });
 }
 
-function loopVoice(text, n) {
+function speak(text) {
   speechSynthesis.cancel();
   const msg = new SpeechSynthesisUtterance(text);
   msg.voice = japaneseVoices[Math.floor(Math.random() * japaneseVoices.length)];
   msg.lang = "ja-JP";
-  for (let i = 0; i < n; i++) {
-    speechSynthesis.speak(msg);
-  }
+  speechSynthesis.speak(msg);
 }
 
 function loadProblems() {
@@ -331,7 +329,7 @@ function typeEventKey(key) {
   switch (key) {
     case "NonConvert": {
       const text = problem.yomis[0];
-      loopVoice(text, 1);
+      speak(text);
       japanese.textContent = problem.yomis[0];
       changeVisibility("visible");
       downTime(5);
@@ -470,7 +468,7 @@ function typable() {
   children[1].textContent = romaji.remainedRomaji[0];
   children[2].textContent = romaji.remainedRomaji.slice(1);
 
-  if (mode.textContent == "EASY") loopVoice(yomi, 1);
+  if (mode.textContent == "EASY") speak(yomi);
   const visibility = (mode.textContent == "EASY") ? "visible" : "hidden";
   changeVisibility(visibility);
   resizeFontSize(aa);
