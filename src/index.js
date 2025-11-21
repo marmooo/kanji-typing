@@ -265,6 +265,24 @@ function speak(text) {
   speechSynthesis.speak(msg);
 }
 
+function loadProblems() {
+  const grade = gradeOption.selectedIndex + 1;
+  if (grade > 0) {
+    fetch("data/" + grade + ".tsv")
+      .then((response) => response.text())
+      .then((tsv) => {
+        problems = tsv.trimEnd().split("\n").map((line) => {
+          const [kanji, yomiStr, romaStr] = line.split("\t");
+          const yomis = yomiStr.split("|");
+          const romas = romaStr.split("|");
+          return { kanji: kanji, yomis: yomis, romas: romas };
+        });
+      }).catch((err) => {
+        console.error(err);
+      });
+  }
+}
+
 function initEmojiParticle() {
   const canvas = document.createElement("canvas");
   Object.assign(canvas.style, {
@@ -287,24 +305,6 @@ function initEmojiParticle() {
     worker.postMessage({ type: "resize", width, height });
   });
   return { canvas, offscreen, worker };
-}
-
-function loadProblems() {
-  const grade = gradeOption.selectedIndex + 1;
-  if (grade > 0) {
-    fetch("data/" + grade + ".tsv")
-      .then((response) => response.text())
-      .then((tsv) => {
-        problems = tsv.trimEnd().split("\n").map((line) => {
-          const [kanji, yomiStr, romaStr] = line.split("\t");
-          const yomis = yomiStr.split("|");
-          const romas = romaStr.split("|");
-          return { kanji: kanji, yomis: yomis, romas: romas };
-        });
-      }).catch((err) => {
-        console.error(err);
-      });
-  }
 }
 
 function nextProblem() {
