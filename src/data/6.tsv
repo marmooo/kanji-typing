@@ -976,7 +976,6 @@
 飛び降り	とびおり|とびくだり	tobiori|tobikudari
 欠片	かけら|けっぺん	kakera|keppenn
 大蔵	おおくら|だいぞう	ookura|daizou
-密教	みっきょう	mikkyou
 臨場	りんじょう	rinnjou
 遺骨	いこつ	ikotsu
 退任	たいにん	taininn
@@ -1249,7 +1248,6 @@
 真っ盛り	まっさかり	massakari
 揮発	きはつ	kihatsu
 班長	はんちょう	hannchou
-真宗	しんしゅう	shinnshuu
 補習	ほしゅう	hoshuu
 黄砂	こうさ	kousa
 服従	ふくじゅう	fukujuu
@@ -1607,6 +1605,7 @@
 特派員	とくはいん	tokuhainn
 宗教的	しゅうきょうてき	shuukyouteki
 神秘的	しんぴてき	shinnpiteki
+気象庁	きしょうちょう	kishouchou
 接骨院	せっこついん	sekkotsuinn
 予約権	よやくけん	yoyakukenn
 財産権	ざいさんけん	zaisannkenn
@@ -1640,6 +1639,7 @@
 郵便物	ゆうびんぶつ	yuubinnbutsu
 創業者	そうぎょうしゃ	sougyousha
 代名詞	だいめいし	daimeishi
+警察庁	けいさつちょう	keisatsuchou
 操作性	そうさせい	sousasei
 裁判長	さいばんちょう	saibannchou
 脳卒中	のうそっちゅう	nousocchuu
@@ -1650,10 +1650,12 @@
 反対派	はんたいは	hanntaiha
 放射能	ほうしゃのう	houshanou
 重要視	じゅうようし	juuyoushi
+宮内庁	くないちょう	kunaichou
 入場券	にゅうじょうけん	nyuujoukenn
 血糖値	けっとうち	kettouchi
 宇宙船	うちゅうせん	uchuusenn
 全盛期	ぜんせいき	zennseiki
+初優勝	はつゆうしょう	hatsuyuushou
 洗面所	せんめんじょ	sennmennjo
 整理券	せいりけん	seirikenn
 異世界	いせかい	isekai
@@ -1700,6 +1702,7 @@
 基準値	きじゅんち	kijunnchi
 疑問点	ぎもんてん	gimonntenn
 意欲的	いよくてき	iyokuteki
+文化庁	ぶんかちょう	bunnkachou
 死亡率	しぼうりつ	shibouritsu
 将来性	しょうらいせい	shouraisei
 可視化	かしか	kashika
@@ -1733,6 +1736,7 @@
 広葉樹	こうようじゅ	kouyouju
 映像化	えいぞうか	eizouka
 加盟国	かめいこく	kameikoku
+大蔵省	おおくらしょう	ookurashou
 伝染病	でんせんびょう	dennsennbyou
 遊覧船	ゆうらんせん	yuurannsenn
 反射的	はんしゃてき	hannshateki
@@ -1746,6 +1750,7 @@
 小論文	しょうろんぶん	shouronnbunn
 経済力	けいざいりょく	keizairyoku
 果樹園	かじゅえん	kajuenn
+検察庁	けんさつちょう	kennsatsuchou
 深刻化	しんこくか	shinnkokuka
 洗面台	せんめんだい	sennmenndai
 危険度	きけんど	kikenndo
@@ -1801,6 +1806,7 @@
 経済界	けいざいかい	keizaikai
 拡張子	かくちょうし	kakuchoushi
 死亡者	しぼうしゃ	shibousha
+特許庁	とっきょちょう	tokkyochou
 幼少期	ようしょうき	youshouki
 最高値	さいたかね	saitakane
 大納言	だいなごん	dainagonn
@@ -1817,6 +1823,7 @@
 批評家	ひひょうか	hihyouka
 担当医	たんとうい	tanntoui
 水資源	みずしげん	mizushigenn
+国税庁	こくぜいちょう	kokuzeichou
 深層水	しんそうすい	shinnsousui
 降水量	こうすいりょう	kousuiryou
 保守派	ほしゅは	hoshuha
