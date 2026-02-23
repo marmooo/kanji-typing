@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "@std/streams": "jsr:@std/streams@^1.0.17",
+    "hiraroma": "npm:hiraroma@^0.0.1",
+    "yomi-dict": "npm:yomi-dict@^0.2.3"
+  }
+}
